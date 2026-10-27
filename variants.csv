@@ -1,0 +1,16 @@
+name,description,sample_filter,treatment_col,outcome_col,status,note
+main,Primary sample: firms with at least one link in the first round,has_links == 1,treated,o1_36,prespecified,Headline: reading total (total effect); reading cond is the conditional contrast fixed before the first estimate
+o1_24,Follow-on window 24 months,has_links == 1,treated,o1_24,prespecified,
+o1_48,Follow-on window 48 months (cohorts up to 2011),has_links == 1 & cohort <= WINDOW_48_LAST_COHORT,treated,o1_48,prespecified,
+o1b_36,Any equity follow-on round within 36 months (also without links),has_links == 1,treated,o1b_36,prespecified,Measurement-channel check
+o1_undisc,O1 with undisclosed rounds counted as equity follow-ons,has_links == 1,treated,o1_undisc_36,post_hoc,
+no2012,Without cohort 2012 (right edge of the window),has_links == 1 & cohort <= 2011,treated,o1_36,prespecified,
+no_angel_first,Without firms whose first round is of type angel,"has_links == 1 & first_round_type != ""angel""",treated,o1_36,post_hoc,
+cap_first_round,Without first rounds above CAP_FIRST_ROUND_USD or age above CAP_AGE_YEARS (both arms),has_links == 1 & !(amount_missing == 0 & first_round_amount_usd > CAP_FIRST_ROUND_USD) & !(age_missing == 0 & age_at_round > CAP_AGE_YEARS),treated,o1_36,post_hoc,
+no_de,Without Germany,"has_links == 1 & country != ""DEU""",treated,o1_36,prespecified,
+links_ctrl,All firms: no-link firms as controls,TRUE,treated,o1_36,prespecified,"Row prespecified; in reading cond, n_links_first of no-link firms is imputed with the median (added after the main results)"
+broad,Broad treatment definition: public or public_variant,has_links == 1,treated_broad,o1_36,post_hoc,
+strict,Strict cut: public with public manager,has_links == 1,treated_strict,o1_36,post_hoc,
+solo,Treated without a private co-investor in the first round versus controls,has_links == 1 & (treated == 0 | treated_solo == 1),treated_solo,o1_36,prespecified,
+synd,Treated with at least one private co-investor versus controls,has_links == 1 & (treated == 0 | treated_synd == 1),treated_synd,o1_36,prespecified,
+o2_36,Graduation: follow-on with links and without public or public_variant investor,has_links == 1,treated,o2_36,prespecified,"Mechanism only, not part of the verdict"

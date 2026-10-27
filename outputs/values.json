@@ -1,0 +1,3883 @@
+{
+ "s10_distinct_public_investors_first": {
+  "date": "2026-10-26",
+  "label": "distinct public investor identifiers in first rounds",
+  "script": "10_build_data.py",
+  "value": 148
+ },
+ "s10_export_last_round_date": {
+  "date": "2026-10-26",
+  "label": "date of the last round in the export",
+  "script": "10_build_data.py",
+  "value": "2015-12-05"
+ },
+ "s10_firms": {
+  "date": "2026-10-26",
+  "label": "firms in the sample",
+  "script": "10_build_data.py",
+  "value": 4066
+ },
+ "s10_firms_by_cohort": {
+  "date": "2026-10-26",
+  "label": "firms per cohort",
+  "script": "10_build_data.py",
+  "value": {
+   "2005": 253,
+   "2006": 332,
+   "2007": 466,
+   "2008": 450,
+   "2009": 424,
+   "2010": 581,
+   "2011": 695,
+   "2012": 865
+  }
+ },
+ "s10_firms_by_country_top5": {
+  "date": "2026-10-26",
+  "label": "firms per country, five largest",
+  "script": "10_build_data.py",
+  "value": {
+   "DEU": 450,
+   "ESP": 303,
+   "FRA": 576,
+   "GBR": 1314,
+   "SWE": 201
+  }
+ },
+ "s10_firms_dropped_no_investor_round": {
+  "date": "2026-10-26",
+  "label": "firms without a scope round that took place",
+  "script": "10_build_data.py",
+  "value": 264
+ },
+ "s10_firms_first_round_only_unresolved_links": {
+  "date": "2026-10-26",
+  "label": "primary-sample firms whose first-round links are all unresolved organisations",
+  "script": "10_build_data.py",
+  "value": 119
+ },
+ "s10_firms_first_round_shifted": {
+  "date": "2026-10-26",
+  "label": "firms whose first round moved because an earlier scope round had only ignored links",
+  "script": "10_build_data.py",
+  "value": 51
+ },
+ "s10_firms_kein_investor_links_first": {
+  "date": "2026-10-26",
+  "label": "firms whose first round had at least one dropped kein_investor link",
+  "script": "10_build_data.py",
+  "value": 82
+ },
+ "s10_firms_o1_36_only_unresolved_links": {
+  "date": "2026-10-26",
+  "label": "primary-sample firms whose o1_36 rests only on unresolved private links",
+  "script": "10_build_data.py",
+  "value": 22
+ },
+ "s10_firms_same_day_merged": {
+  "date": "2026-10-26",
+  "label": "firms with more than one scope round on the first-round day",
+  "script": "10_build_data.py",
+  "value": 26
+ },
+ "s10_firms_same_day_treatment_changed": {
+  "date": "2026-10-26",
+  "label": "firms whose treatment differs between the first round alone and the same-day event",
+  "script": "10_build_data.py",
+  "value": 1
+ },
+ "s10_firms_scope": {
+  "date": "2026-10-26",
+  "label": "firms with at least one scope round",
+  "script": "10_build_data.py",
+  "value": 4330
+ },
+ "s10_firms_window_censored_36": {
+  "date": "2026-10-26",
+  "label": "firms whose 36-month window ends after the last round in the export (outcome read as 0 if nothing is recorded)",
+  "script": "10_build_data.py",
+  "value": 49
+ },
+ "s10_firms_window_censored_36_linked": {
+  "date": "2026-10-26",
+  "label": "of these: firms of the primary sample (with a link in the first round), 36-month window",
+  "script": "10_build_data.py",
+  "value": 31
+ },
+ "s10_firms_window_censored_48": {
+  "date": "2026-10-26",
+  "label": "firms whose 48-month window ends after the last round in the export (outcome read as 0 if nothing is recorded), cohorts up to 2011",
+  "script": "10_build_data.py",
+  "value": 32
+ },
+ "s10_firms_window_censored_48_linked": {
+  "date": "2026-10-26",
+  "label": "of these: firms of the primary sample (with a link in the first round), 48-month window",
+  "script": "10_build_data.py",
+  "value": 28
+ },
+ "s10_firms_with_links": {
+  "date": "2026-10-26",
+  "label": "firms with at least one first-round link (primary sample)",
+  "script": "10_build_data.py",
+  "value": 3022
+ },
+ "s10_n_treated": {
+  "date": "2026-10-26",
+  "label": "treated firms in the primary sample (headline definition)",
+  "script": "10_build_data.py",
+  "value": 606
+ },
+ "s10_n_treated_broad": {
+  "date": "2026-10-26",
+  "label": "treated under the broad definition (primary sample)",
+  "script": "10_build_data.py",
+  "value": 751
+ },
+ "s10_n_treated_solo": {
+  "date": "2026-10-26",
+  "label": "treated without a private co-investor",
+  "script": "10_build_data.py",
+  "value": 319
+ },
+ "s10_n_treated_strict": {
+  "date": "2026-10-26",
+  "label": "treated under the strict cut (primary sample)",
+  "script": "10_build_data.py",
+  "value": 381
+ },
+ "s10_n_treated_synd": {
+  "date": "2026-10-26",
+  "label": "treated with a private co-investor",
+  "script": "10_build_data.py",
+  "value": 287
+ },
+ "s10_reg_hash": {
+  "date": "2026-10-26",
+  "label": "sha256 prefix of the register file",
+  "script": "10_build_data.py",
+  "value": "ba51b393f485"
+ },
+ "s10_reg_kein_investor_by_reason": {
+  "date": "2026-10-26",
+  "label": "organisations of class kein_investor by reason",
+  "script": "10_build_data.py",
+  "value": {
+   "accelerator": 59,
+   "artefakt": 10,
+   "forschung": 2,
+   "grant_darlehen": 48,
+   "grant_programm": 11,
+   "stelle": 6,
+   "vehikel": 5
+  }
+ },
+ "s10_reg_links_first_kein_investor": {
+  "date": "2026-10-26",
+  "label": "first-round links of organisations of class kein_investor in the sample (dropped links)",
+  "script": "10_build_data.py",
+  "value": 87
+ },
+ "s10_reg_links_first_person": {
+  "date": "2026-10-26",
+  "label": "first-round links of persons in the sample",
+  "script": "10_build_data.py",
+  "value": 1004
+ },
+ "s10_reg_links_first_private": {
+  "date": "2026-10-26",
+  "label": "first-round links of organisations of class private in the sample",
+  "script": "10_build_data.py",
+  "value": 3438
+ },
+ "s10_reg_links_first_private_fund_anchor": {
+  "date": "2026-10-26",
+  "label": "first-round links of privately raised funds with a public anchor",
+  "script": "10_build_data.py",
+  "value": 208
+ },
+ "s10_reg_links_first_public": {
+  "date": "2026-10-26",
+  "label": "first-round links of organisations of class public in the sample",
+  "script": "10_build_data.py",
+  "value": 662
+ },
+ "s10_reg_links_first_public_mixed_instrument": {
+  "date": "2026-10-26",
+  "label": "first-round links of public organisations with a mixed instrument",
+  "script": "10_build_data.py",
+  "value": 179
+ },
+ "s10_reg_links_first_public_variant": {
+  "date": "2026-10-26",
+  "label": "first-round links of organisations of class public_variant in the sample",
+  "script": "10_build_data.py",
+  "value": 171
+ },
+ "s10_reg_links_first_public_vehicle_no_majority": {
+  "date": "2026-10-26",
+  "label": "first-round links of publicly established vehicles without a documented public majority",
+  "script": "10_build_data.py",
+  "value": 44
+ },
+ "s10_reg_links_first_strict": {
+  "date": "2026-10-26",
+  "label": "first-round links of the strict cut",
+  "script": "10_build_data.py",
+  "value": 402
+ },
+ "s10_reg_links_first_unresolved": {
+  "date": "2026-10-26",
+  "label": "first-round links of unresolved organisations",
+  "script": "10_build_data.py",
+  "value": 274
+ },
+ "s10_reg_orgs_kein_investor": {
+  "date": "2026-10-26",
+  "label": "organisations of class kein_investor in the register",
+  "script": "10_build_data.py",
+  "value": 141
+ },
+ "s10_reg_orgs_private": {
+  "date": "2026-10-26",
+  "label": "organisations of class private in the register",
+  "script": "10_build_data.py",
+  "value": 2385
+ },
+ "s10_reg_orgs_private_fund_anchor": {
+  "date": "2026-10-26",
+  "label": "privately raised funds with a public anchor investor (private)",
+  "script": "10_build_data.py",
+  "value": 61
+ },
+ "s10_reg_orgs_public": {
+  "date": "2026-10-26",
+  "label": "organisations of class public in the register",
+  "script": "10_build_data.py",
+  "value": 200
+ },
+ "s10_reg_orgs_public_mixed_instrument": {
+  "date": "2026-10-26",
+  "label": "public organisations with a mixed instrument",
+  "script": "10_build_data.py",
+  "value": 64
+ },
+ "s10_reg_orgs_public_variant": {
+  "date": "2026-10-26",
+  "label": "organisations of class public_variant in the register",
+  "script": "10_build_data.py",
+  "value": 53
+ },
+ "s10_reg_orgs_public_vehicle_no_majority": {
+  "date": "2026-10-26",
+  "label": "publicly established vehicles without a documented public majority",
+  "script": "10_build_data.py",
+  "value": 16
+ },
+ "s10_reg_orgs_strict": {
+  "date": "2026-10-26",
+  "label": "public organisations with a public manager (strict cut)",
+  "script": "10_build_data.py",
+  "value": 136
+ },
+ "s10_reg_orgs_unresolved": {
+  "date": "2026-10-26",
+  "label": "organisations without a resolved owner fact (private by rule)",
+  "script": "10_build_data.py",
+  "value": 434
+ },
+ "s10_reg_persons": {
+  "date": "2026-10-26",
+  "label": "persons in the register (private by rule)",
+  "script": "10_build_data.py",
+  "value": 1283
+ },
+ "s10_reg_rows": {
+  "date": "2026-10-26",
+  "label": "rows of the investor register",
+  "script": "10_build_data.py",
+  "value": 4062
+ },
+ "s10_reg_share_links_first_primary_source_public": {
+  "date": "2026-10-26",
+  "label": "share of public first-round links with a primary source",
+  "script": "10_build_data.py",
+  "value": 0.903323
+ },
+ "s10_reg_share_links_first_primary_source_public_variant": {
+  "date": "2026-10-26",
+  "label": "share of public_variant first-round links with a primary source",
+  "script": "10_build_data.py",
+  "value": 0.71345
+ },
+ "s10_reg_share_orgs_primary_source_public": {
+  "date": "2026-10-26",
+  "label": "share of public organisations with a primary source",
+  "script": "10_build_data.py",
+  "value": 0.82
+ },
+ "s10_reg_share_orgs_primary_source_public_variant": {
+  "date": "2026-10-26",
+  "label": "share of public_variant organisations with a primary source",
+  "script": "10_build_data.py",
+  "value": 0.754717
+ },
+ "s10_scope_rounds": {
+  "date": "2026-10-26",
+  "label": "early-stage rounds of European firms in the cohort years",
+  "script": "10_build_data.py",
+  "value": 5471
+ },
+ "s10_scope_rounds_only_kein_investor": {
+  "date": "2026-10-26",
+  "label": "scope rounds whose links are all of class kein_investor (did not take place)",
+  "script": "10_build_data.py",
+  "value": 358
+ },
+ "s10_share_links": {
+  "date": "2026-10-26",
+  "label": "share of firms with at least one first-round link",
+  "script": "10_build_data.py",
+  "value": 0.743237
+ },
+ "s10_treated_by_country_top5": {
+  "date": "2026-10-26",
+  "label": "treated firms per country, five largest",
+  "script": "10_build_data.py",
+  "value": {
+   "DEU": 168,
+   "FRA": 42,
+   "GBR": 153,
+   "IRL": 53,
+   "SWE": 43
+  }
+ },
+ "s10_treated_share_of_linked": {
+  "date": "2026-10-26",
+  "label": "treated share of the primary sample",
+  "script": "10_build_data.py",
+  "value": 0.200529
+ },
+ "s20_age_missing_share": {
+  "date": "2026-10-26",
+  "label": "share with missing age",
+  "script": "20_descriptives.py",
+  "value": 0.291529
+ },
+ "s20_amount_filled_share_followon_36": {
+  "date": "2026-10-26",
+  "label": "share of equity follow-ons within 36 months with an amount",
+  "script": "20_descriptives.py",
+  "value": 0.857798
+ },
+ "s20_amount_missing_share_followon_36_treated": {
+  "date": "2026-10-26",
+  "label": "share of treated firms with an equity follow-on within 36 months whose amount is missing for at least one such round",
+  "script": "20_descriptives.py",
+  "value": 0.234286
+ },
+ "s20_balance_max_abs_smd": {
+  "date": "2026-10-26",
+  "label": "largest absolute unweighted SMD over the covariates (every dummy level and the log1p investor count)",
+  "script": "20_descriptives.py",
+  "value": 0.511696
+ },
+ "s20_ccmiss_firms_eu_inv": {
+  "date": "2026-10-26",
+  "label": "firms without country code whose earliest early-stage round in the cohorts has a European investor",
+  "script": "20_descriptives.py",
+  "value": 392
+ },
+ "s20_ccmiss_treated": {
+  "date": "2026-10-26",
+  "label": "of these: with a public investor in that earliest round (investors outside the register count as not public: a lower bound)",
+  "script": "20_descriptives.py",
+  "value": 119
+ },
+ "s20_coinv_prior_ge50_share_control": {
+  "date": "2026-10-26",
+  "label": "share with a private first-round investor that had 50 or more earlier investments in the export, control",
+  "script": "20_descriptives.py",
+  "value": 0.113411
+ },
+ "s20_coinv_prior_ge50_share_treated": {
+  "date": "2026-10-26",
+  "label": "share with a private first-round investor that had 50 or more earlier investments in the export, treated",
+  "script": "20_descriptives.py",
+  "value": 0.034653
+ },
+ "s20_exit_acq_36_control": {
+  "date": "2026-10-26",
+  "label": "acquired within 36 months, controls",
+  "script": "20_descriptives.py",
+  "value": 0.049255
+ },
+ "s20_exit_acq_36_treated": {
+  "date": "2026-10-26",
+  "label": "acquired within 36 months, treated",
+  "script": "20_descriptives.py",
+  "value": 0.023102
+ },
+ "s20_firms_by_cohort_control": {
+  "date": "2026-10-26",
+  "label": "control firms per cohort, primary sample",
+  "script": "20_descriptives.py",
+  "value": {
+   "2005": 191,
+   "2006": 227,
+   "2007": 318,
+   "2008": 275,
+   "2009": 229,
+   "2010": 318,
+   "2011": 381,
+   "2012": 477
+  }
+ },
+ "s20_firms_by_cohort_treated": {
+  "date": "2026-10-26",
+  "label": "treated firms per cohort, primary sample",
+  "script": "20_descriptives.py",
+  "value": {
+   "2005": 37,
+   "2006": 78,
+   "2007": 81,
+   "2008": 66,
+   "2009": 63,
+   "2010": 103,
+   "2011": 76,
+   "2012": 102
+  }
+ },
+ "s20_first_round_venture_nocode_share_control": {
+  "date": "2026-10-26",
+  "label": "share whose first round is a venture round without series code, control",
+  "script": "20_descriptives.py",
+  "value": 0.357202
+ },
+ "s20_first_round_venture_nocode_share_treated": {
+  "date": "2026-10-26",
+  "label": "share whose first round is a venture round without series code, treated",
+  "script": "20_descriptives.py",
+  "value": 0.488449
+ },
+ "s20_followon_median_days": {
+  "date": "2026-10-26",
+  "label": "median days from the first round to the first equity follow-on",
+  "script": "20_descriptives.py",
+  "value": 574.0
+ },
+ "s20_followon_types": {
+  "date": "2026-10-26",
+  "label": "eight most frequent follow-on round types, primary sample",
+  "script": "20_descriptives.py",
+  "value": {
+   "angel": 139,
+   "debt_financing": 48,
+   "equity_crowdfunding": 14,
+   "grant": 39,
+   "private_equity": 36,
+   "seed": 266,
+   "undisclosed": 156,
+   "venture": 1505
+  }
+ },
+ "s20_mark_age_missing_control": {
+  "date": "2026-10-26",
+  "label": "share with marker: age missing, control",
+  "script": "20_descriptives.py",
+  "value": 0.267798
+ },
+ "s20_mark_age_missing_treated": {
+  "date": "2026-10-26",
+  "label": "share with marker: age missing, treated",
+  "script": "20_descriptives.py",
+  "value": 0.386139
+ },
+ "s20_mark_day1_control": {
+  "date": "2026-10-26",
+  "label": "share with marker: first round dated on the first of a month, control",
+  "script": "20_descriptives.py",
+  "value": 0.32947
+ },
+ "s20_mark_day1_treated": {
+  "date": "2026-10-26",
+  "label": "share with marker: first round dated on the first of a month, treated",
+  "script": "20_descriptives.py",
+  "value": 0.194719
+ },
+ "s20_mark_inv_cc_all_missing_control": {
+  "date": "2026-10-26",
+  "label": "share with marker: all investor country codes missing, control",
+  "script": "20_descriptives.py",
+  "value": 0.16846
+ },
+ "s20_mark_inv_cc_all_missing_treated": {
+  "date": "2026-10-26",
+  "label": "share with marker: all investor country codes missing, treated",
+  "script": "20_descriptives.py",
+  "value": 0.056106
+ },
+ "s20_mark_only_persons_control": {
+  "date": "2026-10-26",
+  "label": "share with marker: only persons as investors, control",
+  "script": "20_descriptives.py",
+  "value": 0.123758
+ },
+ "s20_mark_only_persons_treated": {
+  "date": "2026-10-26",
+  "label": "share with marker: only persons as investors, treated",
+  "script": "20_descriptives.py",
+  "value": 0.0
+ },
+ "s20_n_control_nlinks1": {
+  "date": "2026-10-26",
+  "label": "controls with one link",
+  "script": "20_descriptives.py",
+  "value": 1550
+ },
+ "s20_n_control_nlinks2": {
+  "date": "2026-10-26",
+  "label": "controls with two links",
+  "script": "20_descriptives.py",
+  "value": 469
+ },
+ "s20_n_control_nlinks3": {
+  "date": "2026-10-26",
+  "label": "controls with three links",
+  "script": "20_descriptives.py",
+  "value": 197
+ },
+ "s20_n_control_nlinks4plus": {
+  "date": "2026-10-26",
+  "label": "controls with four or more links",
+  "script": "20_descriptives.py",
+  "value": 200
+ },
+ "s20_nlinks_mean_control": {
+  "date": "2026-10-26",
+  "label": "mean first-round links, controls",
+  "script": "20_descriptives.py",
+  "value": 1.709851
+ },
+ "s20_nlinks_mean_treated": {
+  "date": "2026-10-26",
+  "label": "mean first-round links, treated",
+  "script": "20_descriptives.py",
+  "value": 1.887789
+ },
+ "s20_nlinks_mean_treated_solo": {
+  "date": "2026-10-26",
+  "label": "mean first-round links, treated without a private link",
+  "script": "20_descriptives.py",
+  "value": 1.115987
+ },
+ "s20_nlinks_mean_treated_synd": {
+  "date": "2026-10-26",
+  "label": "mean first-round links, syndicated treated",
+  "script": "20_descriptives.py",
+  "value": 2.745645
+ },
+ "s20_nolink_age_missing_share": {
+  "date": "2026-10-26",
+  "label": "share of no-link firms with missing age",
+  "script": "20_descriptives.py",
+  "value": 0.158046
+ },
+ "s20_nolink_amount_median_usd_control": {
+  "date": "2026-10-26",
+  "label": "median first-round amount of linked controls, USD",
+  "script": "20_descriptives.py",
+  "value": 1699920
+ },
+ "s20_nolink_amount_median_usd_nolink": {
+  "date": "2026-10-26",
+  "label": "median first-round amount of no-link firms, USD",
+  "script": "20_descriptives.py",
+  "value": 364018
+ },
+ "s20_nolink_o1b_36_rate": {
+  "date": "2026-10-26",
+  "label": "o1b_36 rate of no-link firms",
+  "script": "20_descriptives.py",
+  "value": 0.35249
+ },
+ "s20_nolink_o1b_gap": {
+  "date": "2026-10-26",
+  "label": "o1b_36 rate, linked minus no-link firms",
+  "script": "20_descriptives.py",
+  "value": -0.037798
+ },
+ "s20_nolink_share": {
+  "date": "2026-10-26",
+  "label": "share of firms without a first-round link",
+  "script": "20_descriptives.py",
+  "value": 0.256763
+ },
+ "s20_nolink_share_DEU": {
+  "date": "2026-10-26",
+  "label": "share of no-link firms in Germany",
+  "script": "20_descriptives.py",
+  "value": 0.070881
+ },
+ "s20_o1_24_rate": {
+  "date": "2026-10-26",
+  "label": "o1_24 rate in the primary sample",
+  "script": "20_descriptives.py",
+  "value": 0.198213
+ },
+ "s20_o1_24_rate_control": {
+  "date": "2026-10-26",
+  "label": "o1_24 rate among controls",
+  "script": "20_descriptives.py",
+  "value": 0.212748
+ },
+ "s20_o1_24_rate_treated": {
+  "date": "2026-10-26",
+  "label": "o1_24 rate among treated",
+  "script": "20_descriptives.py",
+  "value": 0.140264
+ },
+ "s20_o1_36_diff_naive": {
+  "date": "2026-10-26",
+  "label": "naive difference of o1_36 rates, treated minus controls",
+  "script": "20_descriptives.py",
+  "value": -0.066952
+ },
+ "s20_o1_36_diff_naive_reweighted_day1": {
+  "date": "2026-10-26",
+  "label": "naive difference after reweighting treated to the controls' share of first-of-month dates",
+  "script": "20_descriptives.py",
+  "value": -0.055462
+ },
+ "s20_o1_36_rate": {
+  "date": "2026-10-26",
+  "label": "o1_36 rate in the primary sample",
+  "script": "20_descriptives.py",
+  "value": 0.272998
+ },
+ "s20_o1_36_rate_control": {
+  "date": "2026-10-26",
+  "label": "o1_36 rate among controls",
+  "script": "20_descriptives.py",
+  "value": 0.286424
+ },
+ "s20_o1_36_rate_control_nlinks1": {
+  "date": "2026-10-26",
+  "label": "o1_36 rate of controls with one link",
+  "script": "20_descriptives.py",
+  "value": 0.235484
+ },
+ "s20_o1_36_rate_control_nlinks2": {
+  "date": "2026-10-26",
+  "label": "o1_36 rate of controls with two links",
+  "script": "20_descriptives.py",
+  "value": 0.341151
+ },
+ "s20_o1_36_rate_control_nlinks3": {
+  "date": "2026-10-26",
+  "label": "o1_36 rate of controls with three links",
+  "script": "20_descriptives.py",
+  "value": 0.370558
+ },
+ "s20_o1_36_rate_control_nlinks4plus": {
+  "date": "2026-10-26",
+  "label": "o1_36 rate of controls with four or more links",
+  "script": "20_descriptives.py",
+  "value": 0.47
+ },
+ "s20_o1_36_rate_treated": {
+  "date": "2026-10-26",
+  "label": "o1_36 rate among treated",
+  "script": "20_descriptives.py",
+  "value": 0.219472
+ },
+ "s20_o1_36_rate_treated_age_missing_0": {
+  "date": "2026-10-26",
+  "label": "o1_36 rate of treated with age missing = 0",
+  "script": "20_descriptives.py",
+  "value": 0.268817
+ },
+ "s20_o1_36_rate_treated_age_missing_1": {
+  "date": "2026-10-26",
+  "label": "o1_36 rate of treated with age missing = 1",
+  "script": "20_descriptives.py",
+  "value": 0.141026
+ },
+ "s20_o1_36_rate_treated_day1_0": {
+  "date": "2026-10-26",
+  "label": "o1_36 rate of treated with first round dated on the first of a month = 0",
+  "script": "20_descriptives.py",
+  "value": 0.202869
+ },
+ "s20_o1_36_rate_treated_day1_1": {
+  "date": "2026-10-26",
+  "label": "o1_36 rate of treated with first round dated on the first of a month = 1",
+  "script": "20_descriptives.py",
+  "value": 0.288136
+ },
+ "s20_o1_48_rate": {
+  "date": "2026-10-26",
+  "label": "o1_48 rate in the primary sample, cohorts up to 2011",
+  "script": "20_descriptives.py",
+  "value": 0.287761
+ },
+ "s20_o1_undisc_36_rate": {
+  "date": "2026-10-26",
+  "label": "o1_undisc_36 rate in the primary sample",
+  "script": "20_descriptives.py",
+  "value": 0.286234
+ },
+ "s20_o1_undisc_36_rate_control": {
+  "date": "2026-10-26",
+  "label": "o1_undisc_36 rate among controls",
+  "script": "20_descriptives.py",
+  "value": 0.297599
+ },
+ "s20_o1_undisc_36_rate_treated": {
+  "date": "2026-10-26",
+  "label": "o1_undisc_36 rate among treated",
+  "script": "20_descriptives.py",
+  "value": 0.240924
+ },
+ "s20_o1b_36_rate": {
+  "date": "2026-10-26",
+  "label": "o1b_36 rate in the primary sample",
+  "script": "20_descriptives.py",
+  "value": 0.314692
+ },
+ "s20_o1b_36_rate_by_cohort": {
+  "date": "2026-10-26",
+  "label": "o1b_36 rate per cohort (censoring check)",
+  "script": "20_descriptives.py",
+  "value": {
+   "2005": 0.333333,
+   "2006": 0.301639,
+   "2007": 0.280702,
+   "2008": 0.260997,
+   "2009": 0.318493,
+   "2010": 0.273159,
+   "2011": 0.341357,
+   "2012": 0.376511
+  }
+ },
+ "s20_o1b_36_rate_control": {
+  "date": "2026-10-26",
+  "label": "o1b_36 rate among controls",
+  "script": "20_descriptives.py",
+  "value": 0.321192
+ },
+ "s20_o1b_36_rate_treated": {
+  "date": "2026-10-26",
+  "label": "o1b_36 rate among treated",
+  "script": "20_descriptives.py",
+  "value": 0.288779
+ },
+ "s20_o1bonly_diff_nolink_pp": {
+  "date": "2026-10-26",
+  "label": "share with only link-less follow-ons, treated minus controls, pp",
+  "script": "20_descriptives.py",
+  "value": -0.462401
+ },
+ "s20_o1bonly_diff_public_only_pp": {
+  "date": "2026-10-26",
+  "label": "share with a follow-on with only public or variant links, treated minus controls, pp",
+  "script": "20_descriptives.py",
+  "value": 3.916273
+ },
+ "s20_o1bonly_n_arm_control": {
+  "date": "2026-10-26",
+  "label": "firms in arm control",
+  "script": "20_descriptives.py",
+  "value": 2416
+ },
+ "s20_o1bonly_n_arm_treated": {
+  "date": "2026-10-26",
+  "label": "firms in arm treated",
+  "script": "20_descriptives.py",
+  "value": 606
+ },
+ "s20_o1bonly_n_o1bonly_control": {
+  "date": "2026-10-26",
+  "label": "firms with o1b_36 = 1 and o1_36 = 0, control",
+  "script": "20_descriptives.py",
+  "value": 84
+ },
+ "s20_o1bonly_n_o1bonly_treated": {
+  "date": "2026-10-26",
+  "label": "firms with o1b_36 = 1 and o1_36 = 0, treated",
+  "script": "20_descriptives.py",
+  "value": 42
+ },
+ "s20_o1bonly_nolink_control": {
+  "date": "2026-10-26",
+  "label": "of these: only follow-ons without links, control",
+  "script": "20_descriptives.py",
+  "value": 63
+ },
+ "s20_o1bonly_nolink_treated": {
+  "date": "2026-10-26",
+  "label": "of these: only follow-ons without links, treated",
+  "script": "20_descriptives.py",
+  "value": 13
+ },
+ "s20_o1bonly_public_only_control": {
+  "date": "2026-10-26",
+  "label": "of these: a follow-on with only public or variant links, control",
+  "script": "20_descriptives.py",
+  "value": 21
+ },
+ "s20_o1bonly_public_only_treated": {
+  "date": "2026-10-26",
+  "label": "of these: a follow-on with only public or variant links, treated",
+  "script": "20_descriptives.py",
+  "value": 29
+ },
+ "s20_o2_36_rate": {
+  "date": "2026-10-26",
+  "label": "o2_36 rate in the primary sample",
+  "script": "20_descriptives.py",
+  "value": 0.221046
+ },
+ "s20_o2_36_rate_control": {
+  "date": "2026-10-26",
+  "label": "o2_36 rate among controls",
+  "script": "20_descriptives.py",
+  "value": 0.25745
+ },
+ "s20_o2_36_rate_treated": {
+  "date": "2026-10-26",
+  "label": "o2_36 rate among treated",
+  "script": "20_descriptives.py",
+  "value": 0.075908
+ },
+ "s20_pre_funding_share": {
+  "date": "2026-10-26",
+  "label": "share with a round before the first round",
+  "script": "20_descriptives.py",
+  "value": 0.052945
+ },
+ "s20_sector_top5": {
+  "date": "2026-10-26",
+  "label": "five most frequent sectors in the primary sample",
+  "script": "20_descriptives.py",
+  "value": {
+   "Advertising": 143,
+   "Biotechnology": 275,
+   "E-Commerce": 157,
+   "Software": 324,
+   "other": 947
+  }
+ },
+ "s20_usa_hq_with_eu_public_first_round": {
+  "date": "2026-10-26",
+  "label": "US-headquartered firms with a public investor in their earliest early-stage round in the cohorts (lower bound: investors outside the register count as not public)",
+  "script": "20_descriptives.py",
+  "value": 32
+ },
+ "s30_att_aipw_gbm_cond": {
+  "date": "2026-10-26",
+  "label": "AIPW ATT with gbm for both nuisances, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.074348
+ },
+ "s30_att_aipw_gbm_total": {
+  "date": "2026-10-26",
+  "label": "AIPW ATT with gbm for both nuisances, reading total",
+  "script": "30_estimators.R",
+  "value": -0.055678
+ },
+ "s30_att_aipw_lasso_cond": {
+  "date": "2026-10-26",
+  "label": "AIPW ATT with lasso for both nuisances, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.059842
+ },
+ "s30_att_aipw_lasso_total": {
+  "date": "2026-10-26",
+  "label": "AIPW ATT with lasso for both nuisances, reading total",
+  "script": "30_estimators.R",
+  "value": -0.052095
+ },
+ "s30_att_aipw_logit_cond": {
+  "date": "2026-10-26",
+  "label": "AIPW ATT with logit for both nuisances, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.041343
+ },
+ "s30_att_aipw_logit_total": {
+  "date": "2026-10-26",
+  "label": "AIPW ATT with logit for both nuisances, reading total",
+  "script": "30_estimators.R",
+  "value": -0.045622
+ },
+ "s30_att_aipw_rf_cond": {
+  "date": "2026-10-26",
+  "label": "AIPW ATT with rf for both nuisances, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.077962
+ },
+ "s30_att_aipw_rf_total": {
+  "date": "2026-10-26",
+  "label": "AIPW ATT with rf for both nuisances, reading total",
+  "script": "30_estimators.R",
+  "value": -0.065796
+ },
+ "s30_att_broad_cond": {
+  "date": "2026-10-26",
+  "label": "ATT, variant broad, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.088771
+ },
+ "s30_att_broad_total": {
+  "date": "2026-10-26",
+  "label": "ATT, variant broad, reading total",
+  "script": "30_estimators.R",
+  "value": -0.05966
+ },
+ "s30_att_cap_first_round_cond": {
+  "date": "2026-10-26",
+  "label": "ATT, variant cap_first_round, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.031259
+ },
+ "s30_att_cap_first_round_total": {
+  "date": "2026-10-26",
+  "label": "ATT, variant cap_first_round, reading total",
+  "script": "30_estimators.R",
+  "value": -0.032434
+ },
+ "s30_att_ipw_cond": {
+  "date": "2026-10-26",
+  "label": "ATT, IPW rung, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.059419
+ },
+ "s30_att_ipw_total": {
+  "date": "2026-10-26",
+  "label": "ATT, IPW rung, reading total",
+  "script": "30_estimators.R",
+  "value": -0.042989
+ },
+ "s30_att_links_ctrl_cond": {
+  "date": "2026-10-26",
+  "label": "ATT, variant links_ctrl, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.059001
+ },
+ "s30_att_links_ctrl_total": {
+  "date": "2026-10-26",
+  "label": "ATT, variant links_ctrl, reading total",
+  "script": "30_estimators.R",
+  "value": -0.016915
+ },
+ "s30_att_main_cond": {
+  "date": "2026-10-26",
+  "label": "ATT, one-split AIPW with the chosen pair, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.074348
+ },
+ "s30_att_main_total": {
+  "date": "2026-10-26",
+  "label": "ATT, one-split AIPW with the chosen pair, reading total",
+  "script": "30_estimators.R",
+  "value": -0.050206
+ },
+ "s30_att_naive_cond": {
+  "date": "2026-10-26",
+  "label": "ATT, naive rung, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.066952
+ },
+ "s30_att_naive_total": {
+  "date": "2026-10-26",
+  "label": "ATT, naive rung, reading total",
+  "script": "30_estimators.R",
+  "value": -0.066952
+ },
+ "s30_att_no2012_cond": {
+  "date": "2026-10-26",
+  "label": "ATT, variant no2012, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.08478
+ },
+ "s30_att_no2012_total": {
+  "date": "2026-10-26",
+  "label": "ATT, variant no2012, reading total",
+  "script": "30_estimators.R",
+  "value": -0.047468
+ },
+ "s30_att_no_angel_first_cond": {
+  "date": "2026-10-26",
+  "label": "ATT, variant no_angel_first, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.070407
+ },
+ "s30_att_no_angel_first_total": {
+  "date": "2026-10-26",
+  "label": "ATT, variant no_angel_first, reading total",
+  "script": "30_estimators.R",
+  "value": -0.043707
+ },
+ "s30_att_no_de_cond": {
+  "date": "2026-10-26",
+  "label": "ATT, variant no_de, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.088809
+ },
+ "s30_att_no_de_total": {
+  "date": "2026-10-26",
+  "label": "ATT, variant no_de, reading total",
+  "script": "30_estimators.R",
+  "value": -0.035137
+ },
+ "s30_att_o1_24_cond": {
+  "date": "2026-10-26",
+  "label": "ATT, variant o1_24, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.060991
+ },
+ "s30_att_o1_24_total": {
+  "date": "2026-10-26",
+  "label": "ATT, variant o1_24, reading total",
+  "script": "30_estimators.R",
+  "value": -0.046751
+ },
+ "s30_att_o1_48_cond": {
+  "date": "2026-10-26",
+  "label": "ATT, variant o1_48, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.05765
+ },
+ "s30_att_o1_48_total": {
+  "date": "2026-10-26",
+  "label": "ATT, variant o1_48, reading total",
+  "script": "30_estimators.R",
+  "value": -0.044414
+ },
+ "s30_att_o1_undisc_cond": {
+  "date": "2026-10-26",
+  "label": "ATT, variant o1_undisc, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.081882
+ },
+ "s30_att_o1_undisc_total": {
+  "date": "2026-10-26",
+  "label": "ATT, variant o1_undisc, reading total",
+  "script": "30_estimators.R",
+  "value": -0.030836
+ },
+ "s30_att_o1b_36_cond": {
+  "date": "2026-10-26",
+  "label": "ATT, variant o1b_36, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.041322
+ },
+ "s30_att_o1b_36_total": {
+  "date": "2026-10-26",
+  "label": "ATT, variant o1b_36, reading total",
+  "script": "30_estimators.R",
+  "value": -0.000739
+ },
+ "s30_att_o2_36_cond": {
+  "date": "2026-10-26",
+  "label": "ATT, variant o2_36, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.140008
+ },
+ "s30_att_o2_36_total": {
+  "date": "2026-10-26",
+  "label": "ATT, variant o2_36, reading total",
+  "script": "30_estimators.R",
+  "value": -0.146204
+ },
+ "s30_att_or_cond": {
+  "date": "2026-10-26",
+  "label": "ATT, outcome-regression rung, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.057625
+ },
+ "s30_att_or_total": {
+  "date": "2026-10-26",
+  "label": "ATT, outcome-regression rung, reading total",
+  "script": "30_estimators.R",
+  "value": -0.048123
+ },
+ "s30_att_solo_cond": {
+  "date": "2026-10-26",
+  "label": "ATT, variant solo, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.015909
+ },
+ "s30_att_solo_total": {
+  "date": "2026-10-26",
+  "label": "ATT, variant solo, reading total",
+  "script": "30_estimators.R",
+  "value": -0.044478
+ },
+ "s30_att_split_max_main_cond": {
+  "date": "2026-10-26",
+  "label": "largest ATT over the splits, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.060734
+ },
+ "s30_att_split_max_main_total": {
+  "date": "2026-10-26",
+  "label": "largest ATT over the splits, reading total",
+  "script": "30_estimators.R",
+  "value": -0.037131
+ },
+ "s30_att_split_median_main_cond": {
+  "date": "2026-10-26",
+  "label": "median ATT over the splits, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.073868
+ },
+ "s30_att_split_median_main_total": {
+  "date": "2026-10-26",
+  "label": "median ATT over the splits, reading total",
+  "script": "30_estimators.R",
+  "value": -0.04406
+ },
+ "s30_att_split_min_main_cond": {
+  "date": "2026-10-26",
+  "label": "smallest ATT over the splits, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.090063
+ },
+ "s30_att_split_min_main_total": {
+  "date": "2026-10-26",
+  "label": "smallest ATT over the splits, reading total",
+  "script": "30_estimators.R",
+  "value": -0.052994
+ },
+ "s30_att_split_sd_main_cond": {
+  "date": "2026-10-26",
+  "label": "SD of the ATT over the splits, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.006056
+ },
+ "s30_att_split_sd_main_total": {
+  "date": "2026-10-26",
+  "label": "SD of the ATT over the splits, reading total",
+  "script": "30_estimators.R",
+  "value": 0.00396
+ },
+ "s30_att_strict_cond": {
+  "date": "2026-10-26",
+  "label": "ATT, variant strict, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.099435
+ },
+ "s30_att_strict_total": {
+  "date": "2026-10-26",
+  "label": "ATT, variant strict, reading total",
+  "script": "30_estimators.R",
+  "value": -0.037777
+ },
+ "s30_att_synd_cond": {
+  "date": "2026-10-26",
+  "label": "ATT, variant synd, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.11815
+ },
+ "s30_att_synd_total": {
+  "date": "2026-10-26",
+  "label": "ATT, variant synd, reading total",
+  "script": "30_estimators.R",
+  "value": -0.024965
+ },
+ "s30_boot_fail_ipw_cond": {
+  "date": "2026-10-26",
+  "label": "failed bootstrap draws, IPW rung, reading cond",
+  "script": "30_estimators.R",
+  "value": 0
+ },
+ "s30_boot_fail_ipw_total": {
+  "date": "2026-10-26",
+  "label": "failed bootstrap draws, IPW rung, reading total",
+  "script": "30_estimators.R",
+  "value": 0
+ },
+ "s30_boot_fail_naive_cond": {
+  "date": "2026-10-26",
+  "label": "failed bootstrap draws, naive rung, reading cond",
+  "script": "30_estimators.R",
+  "value": 0
+ },
+ "s30_boot_fail_naive_total": {
+  "date": "2026-10-26",
+  "label": "failed bootstrap draws, naive rung, reading total",
+  "script": "30_estimators.R",
+  "value": 0
+ },
+ "s30_boot_fail_or_cond": {
+  "date": "2026-10-26",
+  "label": "failed bootstrap draws, outcome-regression rung, reading cond",
+  "script": "30_estimators.R",
+  "value": 0
+ },
+ "s30_boot_fail_or_total": {
+  "date": "2026-10-26",
+  "label": "failed bootstrap draws, outcome-regression rung, reading total",
+  "script": "30_estimators.R",
+  "value": 0
+ },
+ "s30_ci_hi_broad_cond": {
+  "date": "2026-10-26",
+  "label": "upper IF-CI, variant broad, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.046201
+ },
+ "s30_ci_hi_broad_total": {
+  "date": "2026-10-26",
+  "label": "upper IF-CI, variant broad, reading total",
+  "script": "30_estimators.R",
+  "value": -0.021413
+ },
+ "s30_ci_hi_cap_first_round_cond": {
+  "date": "2026-10-26",
+  "label": "upper IF-CI, variant cap_first_round, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.023048
+ },
+ "s30_ci_hi_cap_first_round_total": {
+  "date": "2026-10-26",
+  "label": "upper IF-CI, variant cap_first_round, reading total",
+  "script": "30_estimators.R",
+  "value": 0.019034
+ },
+ "s30_ci_hi_ipw_cond": {
+  "date": "2026-10-26",
+  "label": "upper bootstrap CI, IPW rung, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.012462
+ },
+ "s30_ci_hi_ipw_total": {
+  "date": "2026-10-26",
+  "label": "upper bootstrap CI, IPW rung, reading total",
+  "script": "30_estimators.R",
+  "value": -0.002227
+ },
+ "s30_ci_hi_links_ctrl_cond": {
+  "date": "2026-10-26",
+  "label": "upper IF-CI, variant links_ctrl, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.010952
+ },
+ "s30_ci_hi_links_ctrl_total": {
+  "date": "2026-10-26",
+  "label": "upper IF-CI, variant links_ctrl, reading total",
+  "script": "30_estimators.R",
+  "value": 0.023772
+ },
+ "s30_ci_hi_main_cond": {
+  "date": "2026-10-26",
+  "label": "upper IF-CI of the main AIPW, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.028175
+ },
+ "s30_ci_hi_main_total": {
+  "date": "2026-10-26",
+  "label": "upper IF-CI of the main AIPW, reading total",
+  "script": "30_estimators.R",
+  "value": -0.007717
+ },
+ "s30_ci_hi_naive_cond": {
+  "date": "2026-10-26",
+  "label": "upper bootstrap CI, naive rung, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.026847
+ },
+ "s30_ci_hi_naive_total": {
+  "date": "2026-10-26",
+  "label": "upper bootstrap CI, naive rung, reading total",
+  "script": "30_estimators.R",
+  "value": -0.026847
+ },
+ "s30_ci_hi_no2012_cond": {
+  "date": "2026-10-26",
+  "label": "upper IF-CI, variant no2012, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.027222
+ },
+ "s30_ci_hi_no2012_total": {
+  "date": "2026-10-26",
+  "label": "upper IF-CI, variant no2012, reading total",
+  "script": "30_estimators.R",
+  "value": 0.000753
+ },
+ "s30_ci_hi_no_angel_first_cond": {
+  "date": "2026-10-26",
+  "label": "upper IF-CI, variant no_angel_first, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.02178
+ },
+ "s30_ci_hi_no_angel_first_total": {
+  "date": "2026-10-26",
+  "label": "upper IF-CI, variant no_angel_first, reading total",
+  "script": "30_estimators.R",
+  "value": 0.000857
+ },
+ "s30_ci_hi_no_de_cond": {
+  "date": "2026-10-26",
+  "label": "upper IF-CI, variant no_de, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.036736
+ },
+ "s30_ci_hi_no_de_total": {
+  "date": "2026-10-26",
+  "label": "upper IF-CI, variant no_de, reading total",
+  "script": "30_estimators.R",
+  "value": 0.010611
+ },
+ "s30_ci_hi_o1_24_cond": {
+  "date": "2026-10-26",
+  "label": "upper IF-CI, variant o1_24, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.020851
+ },
+ "s30_ci_hi_o1_24_total": {
+  "date": "2026-10-26",
+  "label": "upper IF-CI, variant o1_24, reading total",
+  "script": "30_estimators.R",
+  "value": -0.01034
+ },
+ "s30_ci_hi_o1_48_cond": {
+  "date": "2026-10-26",
+  "label": "upper IF-CI, variant o1_48, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.001123
+ },
+ "s30_ci_hi_o1_48_total": {
+  "date": "2026-10-26",
+  "label": "upper IF-CI, variant o1_48, reading total",
+  "script": "30_estimators.R",
+  "value": 0.006016
+ },
+ "s30_ci_hi_o1_undisc_cond": {
+  "date": "2026-10-26",
+  "label": "upper IF-CI, variant o1_undisc, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.031756
+ },
+ "s30_ci_hi_o1_undisc_total": {
+  "date": "2026-10-26",
+  "label": "upper IF-CI, variant o1_undisc, reading total",
+  "script": "30_estimators.R",
+  "value": 0.013687
+ },
+ "s30_ci_hi_o1b_36_cond": {
+  "date": "2026-10-26",
+  "label": "upper IF-CI, variant o1b_36, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.009202
+ },
+ "s30_ci_hi_o1b_36_total": {
+  "date": "2026-10-26",
+  "label": "upper IF-CI, variant o1b_36, reading total",
+  "script": "30_estimators.R",
+  "value": 0.044672
+ },
+ "s30_ci_hi_o2_36_cond": {
+  "date": "2026-10-26",
+  "label": "upper IF-CI, variant o2_36, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.102618
+ },
+ "s30_ci_hi_o2_36_total": {
+  "date": "2026-10-26",
+  "label": "upper IF-CI, variant o2_36, reading total",
+  "script": "30_estimators.R",
+  "value": -0.112156
+ },
+ "s30_ci_hi_or_cond": {
+  "date": "2026-10-26",
+  "label": "upper bootstrap CI, outcome-regression rung, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.015445
+ },
+ "s30_ci_hi_or_total": {
+  "date": "2026-10-26",
+  "label": "upper bootstrap CI, outcome-regression rung, reading total",
+  "script": "30_estimators.R",
+  "value": -0.010532
+ },
+ "s30_ci_hi_solo_cond": {
+  "date": "2026-10-26",
+  "label": "upper IF-CI, variant solo, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.041001
+ },
+ "s30_ci_hi_solo_total": {
+  "date": "2026-10-26",
+  "label": "upper IF-CI, variant solo, reading total",
+  "script": "30_estimators.R",
+  "value": 0.012808
+ },
+ "s30_ci_hi_split_median_main_cond": {
+  "date": "2026-10-26",
+  "label": "upper CI of the median over the splits (median-adjusted SE), reading cond",
+  "script": "30_estimators.R",
+  "value": -0.025366
+ },
+ "s30_ci_hi_split_median_main_total": {
+  "date": "2026-10-26",
+  "label": "upper CI of the median over the splits (median-adjusted SE), reading total",
+  "script": "30_estimators.R",
+  "value": -0.000572
+ },
+ "s30_ci_hi_strict_cond": {
+  "date": "2026-10-26",
+  "label": "upper IF-CI, variant strict, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.038319
+ },
+ "s30_ci_hi_strict_total": {
+  "date": "2026-10-26",
+  "label": "upper IF-CI, variant strict, reading total",
+  "script": "30_estimators.R",
+  "value": 0.011483
+ },
+ "s30_ci_hi_synd_cond": {
+  "date": "2026-10-26",
+  "label": "upper IF-CI, variant synd, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.032213
+ },
+ "s30_ci_hi_synd_total": {
+  "date": "2026-10-26",
+  "label": "upper IF-CI, variant synd, reading total",
+  "script": "30_estimators.R",
+  "value": 0.033676
+ },
+ "s30_ci_lo_broad_cond": {
+  "date": "2026-10-26",
+  "label": "lower IF-CI, variant broad, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.131341
+ },
+ "s30_ci_lo_broad_total": {
+  "date": "2026-10-26",
+  "label": "lower IF-CI, variant broad, reading total",
+  "script": "30_estimators.R",
+  "value": -0.097907
+ },
+ "s30_ci_lo_cap_first_round_cond": {
+  "date": "2026-10-26",
+  "label": "lower IF-CI, variant cap_first_round, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.085567
+ },
+ "s30_ci_lo_cap_first_round_total": {
+  "date": "2026-10-26",
+  "label": "lower IF-CI, variant cap_first_round, reading total",
+  "script": "30_estimators.R",
+  "value": -0.083902
+ },
+ "s30_ci_lo_ipw_cond": {
+  "date": "2026-10-26",
+  "label": "lower bootstrap CI, IPW rung, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.103861
+ },
+ "s30_ci_lo_ipw_total": {
+  "date": "2026-10-26",
+  "label": "lower bootstrap CI, IPW rung, reading total",
+  "script": "30_estimators.R",
+  "value": -0.08526
+ },
+ "s30_ci_lo_links_ctrl_cond": {
+  "date": "2026-10-26",
+  "label": "lower IF-CI, variant links_ctrl, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.10705
+ },
+ "s30_ci_lo_links_ctrl_total": {
+  "date": "2026-10-26",
+  "label": "lower IF-CI, variant links_ctrl, reading total",
+  "script": "30_estimators.R",
+  "value": -0.057603
+ },
+ "s30_ci_lo_main_cond": {
+  "date": "2026-10-26",
+  "label": "lower IF-CI of the main AIPW, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.120522
+ },
+ "s30_ci_lo_main_total": {
+  "date": "2026-10-26",
+  "label": "lower IF-CI of the main AIPW, reading total",
+  "script": "30_estimators.R",
+  "value": -0.092694
+ },
+ "s30_ci_lo_naive_cond": {
+  "date": "2026-10-26",
+  "label": "lower bootstrap CI, naive rung, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.100266
+ },
+ "s30_ci_lo_naive_total": {
+  "date": "2026-10-26",
+  "label": "lower bootstrap CI, naive rung, reading total",
+  "script": "30_estimators.R",
+  "value": -0.100266
+ },
+ "s30_ci_lo_no2012_cond": {
+  "date": "2026-10-26",
+  "label": "lower IF-CI, variant no2012, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.142338
+ },
+ "s30_ci_lo_no2012_total": {
+  "date": "2026-10-26",
+  "label": "lower IF-CI, variant no2012, reading total",
+  "script": "30_estimators.R",
+  "value": -0.09569
+ },
+ "s30_ci_lo_no_angel_first_cond": {
+  "date": "2026-10-26",
+  "label": "lower IF-CI, variant no_angel_first, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.119033
+ },
+ "s30_ci_lo_no_angel_first_total": {
+  "date": "2026-10-26",
+  "label": "lower IF-CI, variant no_angel_first, reading total",
+  "script": "30_estimators.R",
+  "value": -0.088271
+ },
+ "s30_ci_lo_no_de_cond": {
+  "date": "2026-10-26",
+  "label": "lower IF-CI, variant no_de, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.140883
+ },
+ "s30_ci_lo_no_de_total": {
+  "date": "2026-10-26",
+  "label": "lower IF-CI, variant no_de, reading total",
+  "script": "30_estimators.R",
+  "value": -0.080885
+ },
+ "s30_ci_lo_o1_24_cond": {
+  "date": "2026-10-26",
+  "label": "lower IF-CI, variant o1_24, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.10113
+ },
+ "s30_ci_lo_o1_24_total": {
+  "date": "2026-10-26",
+  "label": "lower IF-CI, variant o1_24, reading total",
+  "script": "30_estimators.R",
+  "value": -0.083162
+ },
+ "s30_ci_lo_o1_48_cond": {
+  "date": "2026-10-26",
+  "label": "lower IF-CI, variant o1_48, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.116422
+ },
+ "s30_ci_lo_o1_48_total": {
+  "date": "2026-10-26",
+  "label": "lower IF-CI, variant o1_48, reading total",
+  "script": "30_estimators.R",
+  "value": -0.094843
+ },
+ "s30_ci_lo_o1_undisc_cond": {
+  "date": "2026-10-26",
+  "label": "lower IF-CI, variant o1_undisc, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.132008
+ },
+ "s30_ci_lo_o1_undisc_total": {
+  "date": "2026-10-26",
+  "label": "lower IF-CI, variant o1_undisc, reading total",
+  "script": "30_estimators.R",
+  "value": -0.075358
+ },
+ "s30_ci_lo_o1b_36_cond": {
+  "date": "2026-10-26",
+  "label": "lower IF-CI, variant o1b_36, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.091846
+ },
+ "s30_ci_lo_o1b_36_total": {
+  "date": "2026-10-26",
+  "label": "lower IF-CI, variant o1b_36, reading total",
+  "script": "30_estimators.R",
+  "value": -0.046149
+ },
+ "s30_ci_lo_o2_36_cond": {
+  "date": "2026-10-26",
+  "label": "lower IF-CI, variant o2_36, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.177399
+ },
+ "s30_ci_lo_o2_36_total": {
+  "date": "2026-10-26",
+  "label": "lower IF-CI, variant o2_36, reading total",
+  "script": "30_estimators.R",
+  "value": -0.180251
+ },
+ "s30_ci_lo_or_cond": {
+  "date": "2026-10-26",
+  "label": "lower bootstrap CI, outcome-regression rung, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.099473
+ },
+ "s30_ci_lo_or_total": {
+  "date": "2026-10-26",
+  "label": "lower bootstrap CI, outcome-regression rung, reading total",
+  "script": "30_estimators.R",
+  "value": -0.090047
+ },
+ "s30_ci_lo_solo_cond": {
+  "date": "2026-10-26",
+  "label": "lower IF-CI, variant solo, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.072819
+ },
+ "s30_ci_lo_solo_total": {
+  "date": "2026-10-26",
+  "label": "lower IF-CI, variant solo, reading total",
+  "script": "30_estimators.R",
+  "value": -0.101763
+ },
+ "s30_ci_lo_split_median_main_cond": {
+  "date": "2026-10-26",
+  "label": "lower CI of the median over the splits (median-adjusted SE), reading cond",
+  "script": "30_estimators.R",
+  "value": -0.122371
+ },
+ "s30_ci_lo_split_median_main_total": {
+  "date": "2026-10-26",
+  "label": "lower CI of the median over the splits (median-adjusted SE), reading total",
+  "script": "30_estimators.R",
+  "value": -0.087548
+ },
+ "s30_ci_lo_strict_cond": {
+  "date": "2026-10-26",
+  "label": "lower IF-CI, variant strict, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.16055
+ },
+ "s30_ci_lo_strict_total": {
+  "date": "2026-10-26",
+  "label": "lower IF-CI, variant strict, reading total",
+  "script": "30_estimators.R",
+  "value": -0.087036
+ },
+ "s30_ci_lo_synd_cond": {
+  "date": "2026-10-26",
+  "label": "lower IF-CI, variant synd, reading cond",
+  "script": "30_estimators.R",
+  "value": -0.204088
+ },
+ "s30_ci_lo_synd_total": {
+  "date": "2026-10-26",
+  "label": "lower IF-CI, variant synd, reading total",
+  "script": "30_estimators.R",
+  "value": -0.083606
+ },
+ "s30_e_auc_cond": {
+  "date": "2026-10-26",
+  "label": "AUC of the propensity score, main split, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.755938
+ },
+ "s30_e_auc_total": {
+  "date": "2026-10-26",
+  "label": "AUC of the propensity score, main split, reading total",
+  "script": "30_estimators.R",
+  "value": 0.733196
+ },
+ "s30_e_cal_slope_cond": {
+  "date": "2026-10-26",
+  "label": "calibration slope of the propensity score, main split, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.940518
+ },
+ "s30_e_cal_slope_total": {
+  "date": "2026-10-26",
+  "label": "calibration slope of the propensity score, main split, reading total",
+  "script": "30_estimators.R",
+  "value": 0.892386
+ },
+ "s30_e_max_control_cond": {
+  "date": "2026-10-26",
+  "label": "largest propensity among controls, main split, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.859344
+ },
+ "s30_e_max_control_total": {
+  "date": "2026-10-26",
+  "label": "largest propensity among controls, main split, reading total",
+  "script": "30_estimators.R",
+  "value": 0.780039
+ },
+ "s30_e_max_treated_cond": {
+  "date": "2026-10-26",
+  "label": "largest propensity among treated, main split, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.8845
+ },
+ "s30_e_max_treated_total": {
+  "date": "2026-10-26",
+  "label": "largest propensity among treated, main split, reading total",
+  "script": "30_estimators.R",
+  "value": 0.82695
+ },
+ "s30_ess_broad_cond": {
+  "date": "2026-10-26",
+  "label": "effective controls, variant broad, reading cond",
+  "script": "30_estimators.R",
+  "value": 851.938842
+ },
+ "s30_ess_broad_total": {
+  "date": "2026-10-26",
+  "label": "effective controls, variant broad, reading total",
+  "script": "30_estimators.R",
+  "value": 1103.752629
+ },
+ "s30_ess_cap_first_round_cond": {
+  "date": "2026-10-26",
+  "label": "effective controls, variant cap_first_round, reading cond",
+  "script": "30_estimators.R",
+  "value": 499.285919
+ },
+ "s30_ess_cap_first_round_total": {
+  "date": "2026-10-26",
+  "label": "effective controls, variant cap_first_round, reading total",
+  "script": "30_estimators.R",
+  "value": 498.282256
+ },
+ "s30_ess_links_ctrl_cond": {
+  "date": "2026-10-26",
+  "label": "effective controls, variant links_ctrl, reading cond",
+  "script": "30_estimators.R",
+  "value": 737.311707
+ },
+ "s30_ess_links_ctrl_total": {
+  "date": "2026-10-26",
+  "label": "effective controls, variant links_ctrl, reading total",
+  "script": "30_estimators.R",
+  "value": 979.542596
+ },
+ "s30_ess_main_cond": {
+  "date": "2026-10-26",
+  "label": "effective number of controls under ATT weights, reading cond",
+  "script": "30_estimators.R",
+  "value": 749.216397
+ },
+ "s30_ess_main_total": {
+  "date": "2026-10-26",
+  "label": "effective number of controls under ATT weights, reading total",
+  "script": "30_estimators.R",
+  "value": 879.115186
+ },
+ "s30_ess_no2012_cond": {
+  "date": "2026-10-26",
+  "label": "effective controls, variant no2012, reading cond",
+  "script": "30_estimators.R",
+  "value": 486.782132
+ },
+ "s30_ess_no2012_total": {
+  "date": "2026-10-26",
+  "label": "effective controls, variant no2012, reading total",
+  "script": "30_estimators.R",
+  "value": 628.350039
+ },
+ "s30_ess_no_angel_first_cond": {
+  "date": "2026-10-26",
+  "label": "effective controls, variant no_angel_first, reading cond",
+  "script": "30_estimators.R",
+  "value": 693.830854
+ },
+ "s30_ess_no_angel_first_total": {
+  "date": "2026-10-26",
+  "label": "effective controls, variant no_angel_first, reading total",
+  "script": "30_estimators.R",
+  "value": 756.690842
+ },
+ "s30_ess_no_de_cond": {
+  "date": "2026-10-26",
+  "label": "effective controls, variant no_de, reading cond",
+  "script": "30_estimators.R",
+  "value": 700.074251
+ },
+ "s30_ess_no_de_total": {
+  "date": "2026-10-26",
+  "label": "effective controls, variant no_de, reading total",
+  "script": "30_estimators.R",
+  "value": 887.636881
+ },
+ "s30_ess_o1_24_cond": {
+  "date": "2026-10-26",
+  "label": "effective controls, variant o1_24, reading cond",
+  "script": "30_estimators.R",
+  "value": 733.318758
+ },
+ "s30_ess_o1_24_total": {
+  "date": "2026-10-26",
+  "label": "effective controls, variant o1_24, reading total",
+  "script": "30_estimators.R",
+  "value": 840.292192
+ },
+ "s30_ess_o1_48_cond": {
+  "date": "2026-10-26",
+  "label": "effective controls, variant o1_48, reading cond",
+  "script": "30_estimators.R",
+  "value": 472.97502
+ },
+ "s30_ess_o1_48_total": {
+  "date": "2026-10-26",
+  "label": "effective controls, variant o1_48, reading total",
+  "script": "30_estimators.R",
+  "value": 673.727654
+ },
+ "s30_ess_o1_undisc_cond": {
+  "date": "2026-10-26",
+  "label": "effective controls, variant o1_undisc, reading cond",
+  "script": "30_estimators.R",
+  "value": 729.784281
+ },
+ "s30_ess_o1_undisc_total": {
+  "date": "2026-10-26",
+  "label": "effective controls, variant o1_undisc, reading total",
+  "script": "30_estimators.R",
+  "value": 809.252325
+ },
+ "s30_ess_o1b_36_cond": {
+  "date": "2026-10-26",
+  "label": "effective controls, variant o1b_36, reading cond",
+  "script": "30_estimators.R",
+  "value": 698.309161
+ },
+ "s30_ess_o1b_36_total": {
+  "date": "2026-10-26",
+  "label": "effective controls, variant o1b_36, reading total",
+  "script": "30_estimators.R",
+  "value": 864.993285
+ },
+ "s30_ess_o2_36_cond": {
+  "date": "2026-10-26",
+  "label": "effective controls, variant o2_36, reading cond",
+  "script": "30_estimators.R",
+  "value": 727.887978
+ },
+ "s30_ess_o2_36_total": {
+  "date": "2026-10-26",
+  "label": "effective controls, variant o2_36, reading total",
+  "script": "30_estimators.R",
+  "value": 795.184722
+ },
+ "s30_ess_solo_cond": {
+  "date": "2026-10-26",
+  "label": "effective controls, variant solo, reading cond",
+  "script": "30_estimators.R",
+  "value": 375.559685
+ },
+ "s30_ess_solo_total": {
+  "date": "2026-10-26",
+  "label": "effective controls, variant solo, reading total",
+  "script": "30_estimators.R",
+  "value": 417.95116
+ },
+ "s30_ess_strict_cond": {
+  "date": "2026-10-26",
+  "label": "effective controls, variant strict, reading cond",
+  "script": "30_estimators.R",
+  "value": 492.924901
+ },
+ "s30_ess_strict_total": {
+  "date": "2026-10-26",
+  "label": "effective controls, variant strict, reading total",
+  "script": "30_estimators.R",
+  "value": 890.854834
+ },
+ "s30_ess_synd_cond": {
+  "date": "2026-10-26",
+  "label": "effective controls, variant synd, reading cond",
+  "script": "30_estimators.R",
+  "value": 239.791822
+ },
+ "s30_ess_synd_total": {
+  "date": "2026-10-26",
+  "label": "effective controls, variant synd, reading total",
+  "script": "30_estimators.R",
+  "value": 707.210064
+ },
+ "s30_learner_e_cond": {
+  "date": "2026-10-26",
+  "label": "learner chosen for the propensity, reading cond",
+  "script": "30_estimators.R",
+  "value": "gbm"
+ },
+ "s30_learner_e_total": {
+  "date": "2026-10-26",
+  "label": "learner chosen for the propensity, reading total",
+  "script": "30_estimators.R",
+  "value": "gbm"
+ },
+ "s30_learner_m0_cond": {
+  "date": "2026-10-26",
+  "label": "learner chosen for the control outcome, reading cond",
+  "script": "30_estimators.R",
+  "value": "gbm"
+ },
+ "s30_learner_m0_total": {
+  "date": "2026-10-26",
+  "label": "learner chosen for the control outcome, reading total",
+  "script": "30_estimators.R",
+  "value": "lasso"
+ },
+ "s30_ll_e_gbm_cond": {
+  "date": "2026-10-26",
+  "label": "cross-fitted log-loss of gbm for the propensity, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.42744
+ },
+ "s30_ll_e_gbm_total": {
+  "date": "2026-10-26",
+  "label": "cross-fitted log-loss of gbm for the propensity, reading total",
+  "script": "30_estimators.R",
+  "value": 0.441247
+ },
+ "s30_ll_e_lasso_cond": {
+  "date": "2026-10-26",
+  "label": "cross-fitted log-loss of lasso for the propensity, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.440379
+ },
+ "s30_ll_e_lasso_total": {
+  "date": "2026-10-26",
+  "label": "cross-fitted log-loss of lasso for the propensity, reading total",
+  "script": "30_estimators.R",
+  "value": 0.444496
+ },
+ "s30_ll_e_logit_cond": {
+  "date": "2026-10-26",
+  "label": "cross-fitted log-loss of logit for the propensity, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.447813
+ },
+ "s30_ll_e_logit_total": {
+  "date": "2026-10-26",
+  "label": "cross-fitted log-loss of logit for the propensity, reading total",
+  "script": "30_estimators.R",
+  "value": 0.458912
+ },
+ "s30_ll_e_rf_cond": {
+  "date": "2026-10-26",
+  "label": "cross-fitted log-loss of rf for the propensity, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.429779
+ },
+ "s30_ll_e_rf_total": {
+  "date": "2026-10-26",
+  "label": "cross-fitted log-loss of rf for the propensity, reading total",
+  "script": "30_estimators.R",
+  "value": 0.446239
+ },
+ "s30_ll_m0_gbm_cond": {
+  "date": "2026-10-26",
+  "label": "cross-fitted log-loss of gbm for the control outcome, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.565378
+ },
+ "s30_ll_m0_gbm_total": {
+  "date": "2026-10-26",
+  "label": "cross-fitted log-loss of gbm for the control outcome, reading total",
+  "script": "30_estimators.R",
+  "value": 0.576653
+ },
+ "s30_ll_m0_lasso_cond": {
+  "date": "2026-10-26",
+  "label": "cross-fitted log-loss of lasso for the control outcome, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.566118
+ },
+ "s30_ll_m0_lasso_total": {
+  "date": "2026-10-26",
+  "label": "cross-fitted log-loss of lasso for the control outcome, reading total",
+  "script": "30_estimators.R",
+  "value": 0.57128
+ },
+ "s30_ll_m0_logit_cond": {
+  "date": "2026-10-26",
+  "label": "cross-fitted log-loss of logit for the control outcome, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.586075
+ },
+ "s30_ll_m0_logit_total": {
+  "date": "2026-10-26",
+  "label": "cross-fitted log-loss of logit for the control outcome, reading total",
+  "script": "30_estimators.R",
+  "value": 0.590604
+ },
+ "s30_ll_m0_rf_cond": {
+  "date": "2026-10-26",
+  "label": "cross-fitted log-loss of rf for the control outcome, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.570503
+ },
+ "s30_ll_m0_rf_total": {
+  "date": "2026-10-26",
+  "label": "cross-fitted log-loss of rf for the control outcome, reading total",
+  "script": "30_estimators.R",
+  "value": 0.582678
+ },
+ "s30_max_abs_smd_weighted_cond": {
+  "date": "2026-10-26",
+  "label": "largest absolute weighted SMD over the design columns, main split, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.104029
+ },
+ "s30_max_abs_smd_weighted_total": {
+  "date": "2026-10-26",
+  "label": "largest absolute weighted SMD over the design columns, main split, reading total",
+  "script": "30_estimators.R",
+  "value": 0.092043
+ },
+ "s30_n_broad_cond": {
+  "date": "2026-10-26",
+  "label": "firms, variant broad, reading cond",
+  "script": "30_estimators.R",
+  "value": 3022
+ },
+ "s30_n_broad_total": {
+  "date": "2026-10-26",
+  "label": "firms, variant broad, reading total",
+  "script": "30_estimators.R",
+  "value": 3022
+ },
+ "s30_n_cap_first_round_cond": {
+  "date": "2026-10-26",
+  "label": "firms, variant cap_first_round, reading cond",
+  "script": "30_estimators.R",
+  "value": 2530
+ },
+ "s30_n_cap_first_round_total": {
+  "date": "2026-10-26",
+  "label": "firms, variant cap_first_round, reading total",
+  "script": "30_estimators.R",
+  "value": 2530
+ },
+ "s30_n_clip_e_hi_cond": {
+  "date": "2026-10-26",
+  "label": "firms clipped at the upper propensity bound, main split, reading cond",
+  "script": "30_estimators.R",
+  "value": 0
+ },
+ "s30_n_clip_e_hi_total": {
+  "date": "2026-10-26",
+  "label": "firms clipped at the upper propensity bound, main split, reading total",
+  "script": "30_estimators.R",
+  "value": 0
+ },
+ "s30_n_clip_e_lo_cond": {
+  "date": "2026-10-26",
+  "label": "firms clipped at the lower propensity bound, main split, reading cond",
+  "script": "30_estimators.R",
+  "value": 0
+ },
+ "s30_n_clip_e_lo_total": {
+  "date": "2026-10-26",
+  "label": "firms clipped at the lower propensity bound, main split, reading total",
+  "script": "30_estimators.R",
+  "value": 0
+ },
+ "s30_n_cols_smd_gt_01_cond": {
+  "date": "2026-10-26",
+  "label": "design columns with an absolute weighted SMD above 0.1, main split, reading cond",
+  "script": "30_estimators.R",
+  "value": 1
+ },
+ "s30_n_cols_smd_gt_01_total": {
+  "date": "2026-10-26",
+  "label": "design columns with an absolute weighted SMD above 0.1, main split, reading total",
+  "script": "30_estimators.R",
+  "value": 0
+ },
+ "s30_n_design_cols_cond": {
+  "date": "2026-10-26",
+  "label": "columns of the design matrix, reading cond",
+  "script": "30_estimators.R",
+  "value": 63
+ },
+ "s30_n_design_cols_total": {
+  "date": "2026-10-26",
+  "label": "columns of the design matrix, reading total",
+  "script": "30_estimators.R",
+  "value": 62
+ },
+ "s30_n_links_ctrl_cond": {
+  "date": "2026-10-26",
+  "label": "firms, variant links_ctrl, reading cond",
+  "script": "30_estimators.R",
+  "value": 4066
+ },
+ "s30_n_links_ctrl_total": {
+  "date": "2026-10-26",
+  "label": "firms, variant links_ctrl, reading total",
+  "script": "30_estimators.R",
+  "value": 4066
+ },
+ "s30_n_main_cond": {
+  "date": "2026-10-26",
+  "label": "firms in the primary sample",
+  "script": "30_estimators.R",
+  "value": 3022
+ },
+ "s30_n_main_total": {
+  "date": "2026-10-26",
+  "label": "firms in the primary sample",
+  "script": "30_estimators.R",
+  "value": 3022
+ },
+ "s30_n_no2012_cond": {
+  "date": "2026-10-26",
+  "label": "firms, variant no2012, reading cond",
+  "script": "30_estimators.R",
+  "value": 2443
+ },
+ "s30_n_no2012_total": {
+  "date": "2026-10-26",
+  "label": "firms, variant no2012, reading total",
+  "script": "30_estimators.R",
+  "value": 2443
+ },
+ "s30_n_no_angel_first_cond": {
+  "date": "2026-10-26",
+  "label": "firms, variant no_angel_first, reading cond",
+  "script": "30_estimators.R",
+  "value": 2789
+ },
+ "s30_n_no_angel_first_total": {
+  "date": "2026-10-26",
+  "label": "firms, variant no_angel_first, reading total",
+  "script": "30_estimators.R",
+  "value": 2789
+ },
+ "s30_n_no_de_cond": {
+  "date": "2026-10-26",
+  "label": "firms, variant no_de, reading cond",
+  "script": "30_estimators.R",
+  "value": 2646
+ },
+ "s30_n_no_de_total": {
+  "date": "2026-10-26",
+  "label": "firms, variant no_de, reading total",
+  "script": "30_estimators.R",
+  "value": 2646
+ },
+ "s30_n_o1_24_cond": {
+  "date": "2026-10-26",
+  "label": "firms, variant o1_24, reading cond",
+  "script": "30_estimators.R",
+  "value": 3022
+ },
+ "s30_n_o1_24_total": {
+  "date": "2026-10-26",
+  "label": "firms, variant o1_24, reading total",
+  "script": "30_estimators.R",
+  "value": 3022
+ },
+ "s30_n_o1_48_cond": {
+  "date": "2026-10-26",
+  "label": "firms, variant o1_48, reading cond",
+  "script": "30_estimators.R",
+  "value": 2443
+ },
+ "s30_n_o1_48_total": {
+  "date": "2026-10-26",
+  "label": "firms, variant o1_48, reading total",
+  "script": "30_estimators.R",
+  "value": 2443
+ },
+ "s30_n_o1_undisc_cond": {
+  "date": "2026-10-26",
+  "label": "firms, variant o1_undisc, reading cond",
+  "script": "30_estimators.R",
+  "value": 3022
+ },
+ "s30_n_o1_undisc_total": {
+  "date": "2026-10-26",
+  "label": "firms, variant o1_undisc, reading total",
+  "script": "30_estimators.R",
+  "value": 3022
+ },
+ "s30_n_o1b_36_cond": {
+  "date": "2026-10-26",
+  "label": "firms, variant o1b_36, reading cond",
+  "script": "30_estimators.R",
+  "value": 3022
+ },
+ "s30_n_o1b_36_total": {
+  "date": "2026-10-26",
+  "label": "firms, variant o1b_36, reading total",
+  "script": "30_estimators.R",
+  "value": 3022
+ },
+ "s30_n_o2_36_cond": {
+  "date": "2026-10-26",
+  "label": "firms, variant o2_36, reading cond",
+  "script": "30_estimators.R",
+  "value": 3022
+ },
+ "s30_n_o2_36_total": {
+  "date": "2026-10-26",
+  "label": "firms, variant o2_36, reading total",
+  "script": "30_estimators.R",
+  "value": 3022
+ },
+ "s30_n_solo_cond": {
+  "date": "2026-10-26",
+  "label": "firms, variant solo, reading cond",
+  "script": "30_estimators.R",
+  "value": 2735
+ },
+ "s30_n_solo_total": {
+  "date": "2026-10-26",
+  "label": "firms, variant solo, reading total",
+  "script": "30_estimators.R",
+  "value": 2735
+ },
+ "s30_n_splits": {
+  "date": "2026-10-26",
+  "label": "number of cross-fitting splits in the band",
+  "script": "30_estimators.R",
+  "value": 100
+ },
+ "s30_n_strict_cond": {
+  "date": "2026-10-26",
+  "label": "firms, variant strict, reading cond",
+  "script": "30_estimators.R",
+  "value": 3022
+ },
+ "s30_n_strict_total": {
+  "date": "2026-10-26",
+  "label": "firms, variant strict, reading total",
+  "script": "30_estimators.R",
+  "value": 3022
+ },
+ "s30_n_synd_cond": {
+  "date": "2026-10-26",
+  "label": "firms, variant synd, reading cond",
+  "script": "30_estimators.R",
+  "value": 2703
+ },
+ "s30_n_synd_total": {
+  "date": "2026-10-26",
+  "label": "firms, variant synd, reading total",
+  "script": "30_estimators.R",
+  "value": 2703
+ },
+ "s30_n_treated_e_gt_05_cond": {
+  "date": "2026-10-26",
+  "label": "treated firms with a propensity above 0.5, main split, reading cond",
+  "script": "30_estimators.R",
+  "value": 152
+ },
+ "s30_n_treated_e_gt_05_total": {
+  "date": "2026-10-26",
+  "label": "treated firms with a propensity above 0.5, main split, reading total",
+  "script": "30_estimators.R",
+  "value": 112
+ },
+ "s30_nt_broad_cond": {
+  "date": "2026-10-26",
+  "label": "treated firms, variant broad, reading cond",
+  "script": "30_estimators.R",
+  "value": 751
+ },
+ "s30_nt_broad_total": {
+  "date": "2026-10-26",
+  "label": "treated firms, variant broad, reading total",
+  "script": "30_estimators.R",
+  "value": 751
+ },
+ "s30_nt_cap_first_round_cond": {
+  "date": "2026-10-26",
+  "label": "treated firms, variant cap_first_round, reading cond",
+  "script": "30_estimators.R",
+  "value": 542
+ },
+ "s30_nt_cap_first_round_total": {
+  "date": "2026-10-26",
+  "label": "treated firms, variant cap_first_round, reading total",
+  "script": "30_estimators.R",
+  "value": 542
+ },
+ "s30_nt_links_ctrl_cond": {
+  "date": "2026-10-26",
+  "label": "treated firms, variant links_ctrl, reading cond",
+  "script": "30_estimators.R",
+  "value": 606
+ },
+ "s30_nt_links_ctrl_total": {
+  "date": "2026-10-26",
+  "label": "treated firms, variant links_ctrl, reading total",
+  "script": "30_estimators.R",
+  "value": 606
+ },
+ "s30_nt_main_cond": {
+  "date": "2026-10-26",
+  "label": "treated firms in the primary sample",
+  "script": "30_estimators.R",
+  "value": 606
+ },
+ "s30_nt_main_total": {
+  "date": "2026-10-26",
+  "label": "treated firms in the primary sample",
+  "script": "30_estimators.R",
+  "value": 606
+ },
+ "s30_nt_no2012_cond": {
+  "date": "2026-10-26",
+  "label": "treated firms, variant no2012, reading cond",
+  "script": "30_estimators.R",
+  "value": 504
+ },
+ "s30_nt_no2012_total": {
+  "date": "2026-10-26",
+  "label": "treated firms, variant no2012, reading total",
+  "script": "30_estimators.R",
+  "value": 504
+ },
+ "s30_nt_no_angel_first_cond": {
+  "date": "2026-10-26",
+  "label": "treated firms, variant no_angel_first, reading cond",
+  "script": "30_estimators.R",
+  "value": 591
+ },
+ "s30_nt_no_angel_first_total": {
+  "date": "2026-10-26",
+  "label": "treated firms, variant no_angel_first, reading total",
+  "script": "30_estimators.R",
+  "value": 591
+ },
+ "s30_nt_no_de_cond": {
+  "date": "2026-10-26",
+  "label": "treated firms, variant no_de, reading cond",
+  "script": "30_estimators.R",
+  "value": 438
+ },
+ "s30_nt_no_de_total": {
+  "date": "2026-10-26",
+  "label": "treated firms, variant no_de, reading total",
+  "script": "30_estimators.R",
+  "value": 438
+ },
+ "s30_nt_o1_24_cond": {
+  "date": "2026-10-26",
+  "label": "treated firms, variant o1_24, reading cond",
+  "script": "30_estimators.R",
+  "value": 606
+ },
+ "s30_nt_o1_24_total": {
+  "date": "2026-10-26",
+  "label": "treated firms, variant o1_24, reading total",
+  "script": "30_estimators.R",
+  "value": 606
+ },
+ "s30_nt_o1_48_cond": {
+  "date": "2026-10-26",
+  "label": "treated firms, variant o1_48, reading cond",
+  "script": "30_estimators.R",
+  "value": 504
+ },
+ "s30_nt_o1_48_total": {
+  "date": "2026-10-26",
+  "label": "treated firms, variant o1_48, reading total",
+  "script": "30_estimators.R",
+  "value": 504
+ },
+ "s30_nt_o1_undisc_cond": {
+  "date": "2026-10-26",
+  "label": "treated firms, variant o1_undisc, reading cond",
+  "script": "30_estimators.R",
+  "value": 606
+ },
+ "s30_nt_o1_undisc_total": {
+  "date": "2026-10-26",
+  "label": "treated firms, variant o1_undisc, reading total",
+  "script": "30_estimators.R",
+  "value": 606
+ },
+ "s30_nt_o1b_36_cond": {
+  "date": "2026-10-26",
+  "label": "treated firms, variant o1b_36, reading cond",
+  "script": "30_estimators.R",
+  "value": 606
+ },
+ "s30_nt_o1b_36_total": {
+  "date": "2026-10-26",
+  "label": "treated firms, variant o1b_36, reading total",
+  "script": "30_estimators.R",
+  "value": 606
+ },
+ "s30_nt_o2_36_cond": {
+  "date": "2026-10-26",
+  "label": "treated firms, variant o2_36, reading cond",
+  "script": "30_estimators.R",
+  "value": 606
+ },
+ "s30_nt_o2_36_total": {
+  "date": "2026-10-26",
+  "label": "treated firms, variant o2_36, reading total",
+  "script": "30_estimators.R",
+  "value": 606
+ },
+ "s30_nt_solo_cond": {
+  "date": "2026-10-26",
+  "label": "treated firms, variant solo, reading cond",
+  "script": "30_estimators.R",
+  "value": 319
+ },
+ "s30_nt_solo_total": {
+  "date": "2026-10-26",
+  "label": "treated firms, variant solo, reading total",
+  "script": "30_estimators.R",
+  "value": 319
+ },
+ "s30_nt_strict_cond": {
+  "date": "2026-10-26",
+  "label": "treated firms, variant strict, reading cond",
+  "script": "30_estimators.R",
+  "value": 381
+ },
+ "s30_nt_strict_total": {
+  "date": "2026-10-26",
+  "label": "treated firms, variant strict, reading total",
+  "script": "30_estimators.R",
+  "value": 381
+ },
+ "s30_nt_synd_cond": {
+  "date": "2026-10-26",
+  "label": "treated firms, variant synd, reading cond",
+  "script": "30_estimators.R",
+  "value": 287
+ },
+ "s30_nt_synd_total": {
+  "date": "2026-10-26",
+  "label": "treated firms, variant synd, reading total",
+  "script": "30_estimators.R",
+  "value": 287
+ },
+ "s30_se_broad_cond": {
+  "date": "2026-10-26",
+  "label": "IF-SE, variant broad, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.02172
+ },
+ "s30_se_broad_total": {
+  "date": "2026-10-26",
+  "label": "IF-SE, variant broad, reading total",
+  "script": "30_estimators.R",
+  "value": 0.019514
+ },
+ "s30_se_cap_first_round_cond": {
+  "date": "2026-10-26",
+  "label": "IF-SE, variant cap_first_round, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.027709
+ },
+ "s30_se_cap_first_round_total": {
+  "date": "2026-10-26",
+  "label": "IF-SE, variant cap_first_round, reading total",
+  "script": "30_estimators.R",
+  "value": 0.02626
+ },
+ "s30_se_links_ctrl_cond": {
+  "date": "2026-10-26",
+  "label": "IF-SE, variant links_ctrl, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.024515
+ },
+ "s30_se_links_ctrl_total": {
+  "date": "2026-10-26",
+  "label": "IF-SE, variant links_ctrl, reading total",
+  "script": "30_estimators.R",
+  "value": 0.020759
+ },
+ "s30_se_main_cond": {
+  "date": "2026-10-26",
+  "label": "influence-function SE of the main AIPW, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.023558
+ },
+ "s30_se_main_total": {
+  "date": "2026-10-26",
+  "label": "influence-function SE of the main AIPW, reading total",
+  "script": "30_estimators.R",
+  "value": 0.021678
+ },
+ "s30_se_no2012_cond": {
+  "date": "2026-10-26",
+  "label": "IF-SE, variant no2012, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.029367
+ },
+ "s30_se_no2012_total": {
+  "date": "2026-10-26",
+  "label": "IF-SE, variant no2012, reading total",
+  "script": "30_estimators.R",
+  "value": 0.024603
+ },
+ "s30_se_no_angel_first_cond": {
+  "date": "2026-10-26",
+  "label": "IF-SE, variant no_angel_first, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.02481
+ },
+ "s30_se_no_angel_first_total": {
+  "date": "2026-10-26",
+  "label": "IF-SE, variant no_angel_first, reading total",
+  "script": "30_estimators.R",
+  "value": 0.022737
+ },
+ "s30_se_no_de_cond": {
+  "date": "2026-10-26",
+  "label": "IF-SE, variant no_de, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.026569
+ },
+ "s30_se_no_de_total": {
+  "date": "2026-10-26",
+  "label": "IF-SE, variant no_de, reading total",
+  "script": "30_estimators.R",
+  "value": 0.023341
+ },
+ "s30_se_o1_24_cond": {
+  "date": "2026-10-26",
+  "label": "IF-SE, variant o1_24, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.02048
+ },
+ "s30_se_o1_24_total": {
+  "date": "2026-10-26",
+  "label": "IF-SE, variant o1_24, reading total",
+  "script": "30_estimators.R",
+  "value": 0.018577
+ },
+ "s30_se_o1_48_cond": {
+  "date": "2026-10-26",
+  "label": "IF-SE, variant o1_48, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.029987
+ },
+ "s30_se_o1_48_total": {
+  "date": "2026-10-26",
+  "label": "IF-SE, variant o1_48, reading total",
+  "script": "30_estimators.R",
+  "value": 0.02573
+ },
+ "s30_se_o1_undisc_cond": {
+  "date": "2026-10-26",
+  "label": "IF-SE, variant o1_undisc, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.025575
+ },
+ "s30_se_o1_undisc_total": {
+  "date": "2026-10-26",
+  "label": "IF-SE, variant o1_undisc, reading total",
+  "script": "30_estimators.R",
+  "value": 0.022716
+ },
+ "s30_se_o1b_36_cond": {
+  "date": "2026-10-26",
+  "label": "IF-SE, variant o1b_36, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.025778
+ },
+ "s30_se_o1b_36_total": {
+  "date": "2026-10-26",
+  "label": "IF-SE, variant o1b_36, reading total",
+  "script": "30_estimators.R",
+  "value": 0.023169
+ },
+ "s30_se_o2_36_cond": {
+  "date": "2026-10-26",
+  "label": "IF-SE, variant o2_36, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.019077
+ },
+ "s30_se_o2_36_total": {
+  "date": "2026-10-26",
+  "label": "IF-SE, variant o2_36, reading total",
+  "script": "30_estimators.R",
+  "value": 0.017372
+ },
+ "s30_se_solo_cond": {
+  "date": "2026-10-26",
+  "label": "IF-SE, variant solo, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.029036
+ },
+ "s30_se_solo_total": {
+  "date": "2026-10-26",
+  "label": "IF-SE, variant solo, reading total",
+  "script": "30_estimators.R",
+  "value": 0.029228
+ },
+ "s30_se_split_median_main_cond": {
+  "date": "2026-10-26",
+  "label": "median-adjusted SE over the splits (Chernozhukov et al. 2018), reading cond",
+  "script": "30_estimators.R",
+  "value": 0.024747
+ },
+ "s30_se_split_median_main_total": {
+  "date": "2026-10-26",
+  "label": "median-adjusted SE over the splits (Chernozhukov et al. 2018), reading total",
+  "script": "30_estimators.R",
+  "value": 0.022188
+ },
+ "s30_se_strict_cond": {
+  "date": "2026-10-26",
+  "label": "IF-SE, variant strict, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.031182
+ },
+ "s30_se_strict_total": {
+  "date": "2026-10-26",
+  "label": "IF-SE, variant strict, reading total",
+  "script": "30_estimators.R",
+  "value": 0.025133
+ },
+ "s30_se_synd_cond": {
+  "date": "2026-10-26",
+  "label": "IF-SE, variant synd, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.043846
+ },
+ "s30_se_synd_total": {
+  "date": "2026-10-26",
+  "label": "IF-SE, variant synd, reading total",
+  "script": "30_estimators.R",
+  "value": 0.029919
+ },
+ "s30_share_splits_ci_excl_zero_main_cond": {
+  "date": "2026-10-26",
+  "label": "share of splits whose IF-CI excludes zero, reading cond",
+  "script": "30_estimators.R",
+  "value": 1
+ },
+ "s30_share_splits_ci_excl_zero_main_total": {
+  "date": "2026-10-26",
+  "label": "share of splits whose IF-CI excludes zero, reading total",
+  "script": "30_estimators.R",
+  "value": 0.63
+ },
+ "s30_share_splits_le_main_cond": {
+  "date": "2026-10-26",
+  "label": "share of splits with an ATT at or below the main split, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.47
+ },
+ "s30_share_splits_le_main_total": {
+  "date": "2026-10-26",
+  "label": "share of splits with an ATT at or below the main split, reading total",
+  "script": "30_estimators.R",
+  "value": 0.07
+ },
+ "s30_share_splits_negative_main_cond": {
+  "date": "2026-10-26",
+  "label": "share of splits with a negative ATT, reading cond",
+  "script": "30_estimators.R",
+  "value": 1
+ },
+ "s30_share_splits_negative_main_total": {
+  "date": "2026-10-26",
+  "label": "share of splits with a negative ATT, reading total",
+  "script": "30_estimators.R",
+  "value": 1
+ },
+ "s30_w_share_top4_countries_cond": {
+  "date": "2026-10-26",
+  "label": "share of the control weight in the four heaviest countries, main split, reading cond",
+  "script": "30_estimators.R",
+  "value": 0.665099
+ },
+ "s30_w_share_top4_countries_total": {
+  "date": "2026-10-26",
+  "label": "share of the control weight in the four heaviest countries, main split, reading total",
+  "script": "30_estimators.R",
+  "value": 0.669277
+ },
+ "s40_boot_B": {
+  "date": "2026-09-29",
+  "label": "bootstrap replicates per mode and reading",
+  "script": "40_inference.R",
+  "value": 999
+ },
+ "s40_boot_ci_hi_cluster_total": {
+  "date": "2026-09-29",
+  "label": "upper percentile bootstrap CI, cluster resampling, reading total",
+  "script": "40_inference.R",
+  "value": 0.002816
+ },
+ "s40_boot_ci_hi_firm_cond": {
+  "date": "2026-09-29",
+  "label": "upper percentile bootstrap CI, firm resampling, reading cond",
+  "script": "40_inference.R",
+  "value": -0.017245
+ },
+ "s40_boot_ci_hi_firm_total": {
+  "date": "2026-09-29",
+  "label": "upper percentile bootstrap CI, firm resampling, reading total",
+  "script": "40_inference.R",
+  "value": 0.005098
+ },
+ "s40_boot_ci_lo_cluster_total": {
+  "date": "2026-09-29",
+  "label": "lower percentile bootstrap CI, cluster resampling, reading total",
+  "script": "40_inference.R",
+  "value": -0.101898
+ },
+ "s40_boot_ci_lo_firm_cond": {
+  "date": "2026-09-29",
+  "label": "lower percentile bootstrap CI, firm resampling, reading cond",
+  "script": "40_inference.R",
+  "value": -0.134389
+ },
+ "s40_boot_ci_lo_firm_total": {
+  "date": "2026-09-29",
+  "label": "lower percentile bootstrap CI, firm resampling, reading total",
+  "script": "40_inference.R",
+  "value": -0.093
+ },
+ "s40_boot_fail_cluster_total": {
+  "date": "2026-09-29",
+  "label": "failed replicates, cluster resampling, reading total",
+  "script": "40_inference.R",
+  "value": 0
+ },
+ "s40_boot_fail_firm_cond": {
+  "date": "2026-09-29",
+  "label": "failed replicates, firm resampling, reading cond",
+  "script": "40_inference.R",
+  "value": 0
+ },
+ "s40_boot_fail_firm_total": {
+  "date": "2026-09-29",
+  "label": "failed replicates, firm resampling, reading total",
+  "script": "40_inference.R",
+  "value": 0
+ },
+ "s40_boot_se_cluster_total": {
+  "date": "2026-09-29",
+  "label": "bootstrap SE, cluster resampling, reading total",
+  "script": "40_inference.R",
+  "value": 0.028065
+ },
+ "s40_boot_se_firm_cond": {
+  "date": "2026-09-29",
+  "label": "bootstrap SE, firm resampling, reading cond",
+  "script": "40_inference.R",
+  "value": 0.029972
+ },
+ "s40_boot_se_firm_total": {
+  "date": "2026-09-29",
+  "label": "bootstrap SE, firm resampling, reading total",
+  "script": "40_inference.R",
+  "value": 0.025529
+ },
+ "s40_cluster_size_max": {
+  "date": "2026-09-29",
+  "label": "firms in the largest cluster",
+  "script": "40_inference.R",
+  "value": 188
+ },
+ "s40_cluster_size_median": {
+  "date": "2026-09-29",
+  "label": "median firms per cluster",
+  "script": "40_inference.R",
+  "value": 7
+ },
+ "s40_cluster_size_min": {
+  "date": "2026-09-29",
+  "label": "firms in the smallest cluster",
+  "script": "40_inference.R",
+  "value": 1
+ },
+ "s40_grf_att_cond": {
+  "date": "2026-09-29",
+  "label": "causal-forest ATT on the treated, reading cond",
+  "script": "40_inference.R",
+  "value": -0.074181
+ },
+ "s40_grf_att_total": {
+  "date": "2026-09-29",
+  "label": "causal-forest ATT on the treated, reading total",
+  "script": "40_inference.R",
+  "value": -0.050131
+ },
+ "s40_grf_ci_hi_cond": {
+  "date": "2026-09-29",
+  "label": "upper causal-forest CI, reading cond",
+  "script": "40_inference.R",
+  "value": -0.032951
+ },
+ "s40_grf_ci_hi_total": {
+  "date": "2026-09-29",
+  "label": "upper causal-forest CI, reading total",
+  "script": "40_inference.R",
+  "value": -0.010098
+ },
+ "s40_grf_ci_lo_cond": {
+  "date": "2026-09-29",
+  "label": "lower causal-forest CI, reading cond",
+  "script": "40_inference.R",
+  "value": -0.11541
+ },
+ "s40_grf_ci_lo_total": {
+  "date": "2026-09-29",
+  "label": "lower causal-forest CI, reading total",
+  "script": "40_inference.R",
+  "value": -0.090164
+ },
+ "s40_grf_se_cond": {
+  "date": "2026-09-29",
+  "label": "causal-forest SE, reading cond",
+  "script": "40_inference.R",
+  "value": 0.021036
+ },
+ "s40_grf_se_total": {
+  "date": "2026-09-29",
+  "label": "causal-forest SE, reading total",
+  "script": "40_inference.R",
+  "value": 0.020425
+ },
+ "s40_grf_what_max_control_cond": {
+  "date": "2026-09-29",
+  "label": "largest forest propensity among controls, reading cond",
+  "script": "40_inference.R",
+  "value": 0.698604
+ },
+ "s40_grf_what_max_control_total": {
+  "date": "2026-09-29",
+  "label": "largest forest propensity among controls, reading total",
+  "script": "40_inference.R",
+  "value": 0.738283
+ },
+ "s40_grf_what_max_treated_cond": {
+  "date": "2026-09-29",
+  "label": "largest forest propensity among treated, reading cond",
+  "script": "40_inference.R",
+  "value": 0.691268
+ },
+ "s40_grf_what_max_treated_total": {
+  "date": "2026-09-29",
+  "label": "largest forest propensity among treated, reading total",
+  "script": "40_inference.R",
+  "value": 0.735735
+ },
+ "s40_n_clusters": {
+  "date": "2026-09-29",
+  "label": "country x cohort clusters",
+  "script": "40_inference.R",
+  "value": 179
+ },
+ "s50_bench_max_e_equiv": {
+  "date": "2026-10-26",
+  "label": "largest E-equivalent among the observed covariates (country_POL)",
+  "script": "50_sensitivity.py",
+  "value": 3.5484
+ },
+ "s50_bench_n_vars": {
+  "date": "2026-10-26",
+  "label": "covariates in the benchmark table",
+  "script": "50_sensitivity.py",
+  "value": 52
+ },
+ "s50_bench_n_vars_e_ge_evalue_ci_cond": {
+  "date": "2026-10-26",
+  "label": "covariates whose E-equivalent reaches the CI E-value, reading cond",
+  "script": "50_sensitivity.py",
+  "value": 12
+ },
+ "s50_bench_n_vars_e_ge_evalue_ci_total": {
+  "date": "2026-10-26",
+  "label": "covariates whose E-equivalent reaches the CI E-value, reading total",
+  "script": "50_sensitivity.py",
+  "value": 31
+ },
+ "s50_bench_n_vars_e_ge_evalue_point_cond": {
+  "date": "2026-10-26",
+  "label": "covariates whose E-equivalent reaches the point E-value, reading cond",
+  "script": "50_sensitivity.py",
+  "value": 2
+ },
+ "s50_bench_n_vars_e_ge_evalue_point_total": {
+  "date": "2026-10-26",
+  "label": "covariates whose E-equivalent reaches the point E-value, reading total",
+  "script": "50_sensitivity.py",
+  "value": 4
+ },
+ "s50_evalue_ci_cond": {
+  "date": "2026-10-26",
+  "label": "E-value of the CI bound nearer to zero (1 if the CI covers zero), reading cond",
+  "script": "50_sensitivity.py",
+  "value": 1.508977
+ },
+ "s50_evalue_ci_total": {
+  "date": "2026-10-26",
+  "label": "E-value of the CI bound nearer to zero (1 if the CI covers zero), reading total",
+  "script": "50_sensitivity.py",
+  "value": 1.225944
+ },
+ "s50_evalue_point_cond": {
+  "date": "2026-10-26",
+  "label": "E-value of the point estimate, reading cond",
+  "script": "50_sensitivity.py",
+  "value": 2.012194
+ },
+ "s50_evalue_point_total": {
+  "date": "2026-10-26",
+  "label": "E-value of the point estimate, reading total",
+  "script": "50_sensitivity.py",
+  "value": 1.758936
+ },
+ "s50_evalue_shift10_cond": {
+  "date": "2026-10-26",
+  "label": "E-value for a true ATT of +10 pp appearing as the observed one, reading cond",
+  "script": "50_sensitivity.py",
+  "value": 4.35377
+ },
+ "s50_evalue_shift10_total": {
+  "date": "2026-10-26",
+  "label": "E-value for a true ATT of +10 pp appearing as the observed one, reading total",
+  "script": "50_sensitivity.py",
+  "value": 3.941862
+ },
+ "s50_evalue_shift5_cond": {
+  "date": "2026-10-26",
+  "label": "E-value for a true ATT of +5 pp appearing as the observed one, reading cond",
+  "script": "50_sensitivity.py",
+  "value": 2.861616
+ },
+ "s50_evalue_shift5_total": {
+  "date": "2026-10-26",
+  "label": "E-value for a true ATT of +5 pp appearing as the observed one, reading total",
+  "script": "50_sensitivity.py",
+  "value": 2.561283
+ },
+ "s50_mde80_cond": {
+  "date": "2026-10-26",
+  "label": "minimum detectable effect at 80 percent power, as a share (0.06 = 6 pp), reading cond",
+  "script": "50_sensitivity.py",
+  "value": 0.066
+ },
+ "s50_mde80_total": {
+  "date": "2026-10-26",
+  "label": "minimum detectable effect at 80 percent power, as a share (0.06 = 6 pp), reading total",
+  "script": "50_sensitivity.py",
+  "value": 0.060733
+ },
+ "s50_mde90_cond": {
+  "date": "2026-10-26",
+  "label": "minimum detectable effect at 90 percent power, as a share (0.06 = 6 pp), reading cond",
+  "script": "50_sensitivity.py",
+  "value": 0.076364
+ },
+ "s50_mde90_total": {
+  "date": "2026-10-26",
+  "label": "minimum detectable effect at 90 percent power, as a share (0.06 = 6 pp), reading total",
+  "script": "50_sensitivity.py",
+  "value": 0.07027
+ },
+ "s50_power_plus10pp_cond": {
+  "date": "2026-10-26",
+  "label": "power against a true effect of 10 pp, reading cond",
+  "script": "50_sensitivity.py",
+  "value": 0.98884
+ },
+ "s50_power_plus10pp_total": {
+  "date": "2026-10-26",
+  "label": "power against a true effect of 10 pp, reading total",
+  "script": "50_sensitivity.py",
+  "value": 0.996011
+ },
+ "s50_power_plus15pp_cond": {
+  "date": "2026-10-26",
+  "label": "power against a true effect of 15 pp, reading cond",
+  "script": "50_sensitivity.py",
+  "value": 0.999995
+ },
+ "s50_power_plus15pp_total": {
+  "date": "2026-10-26",
+  "label": "power against a true effect of 15 pp, reading total",
+  "script": "50_sensitivity.py",
+  "value": 1.0
+ },
+ "s50_power_plus20pp_cond": {
+  "date": "2026-10-26",
+  "label": "power against a true effect of 20 pp, reading cond",
+  "script": "50_sensitivity.py",
+  "value": 1.0
+ },
+ "s50_power_plus20pp_total": {
+  "date": "2026-10-26",
+  "label": "power against a true effect of 20 pp, reading total",
+  "script": "50_sensitivity.py",
+  "value": 1.0
+ },
+ "s50_power_plus5pp_cond": {
+  "date": "2026-10-26",
+  "label": "power against a true effect of 5 pp, reading cond",
+  "script": "50_sensitivity.py",
+  "value": 0.564549
+ },
+ "s50_power_plus5pp_total": {
+  "date": "2026-10-26",
+  "label": "power against a true effect of 5 pp, reading total",
+  "script": "50_sensitivity.py",
+  "value": 0.635535
+ },
+ "s50_power_plus8pp_cond": {
+  "date": "2026-10-26",
+  "label": "power against a true effect of 8 pp, reading cond",
+  "script": "50_sensitivity.py",
+  "value": 0.924486
+ },
+ "s50_power_plus8pp_total": {
+  "date": "2026-10-26",
+  "label": "power against a true effect of 8 pp, reading total",
+  "script": "50_sensitivity.py",
+  "value": 0.958222
+ },
+ "s50_rr_obs_cond": {
+  "date": "2026-10-26",
+  "label": "observed risk ratio treated versus counterfactual (inverted to >= 1), reading cond",
+  "script": "50_sensitivity.py",
+  "value": 1.338758
+ },
+ "s50_rr_obs_total": {
+  "date": "2026-10-26",
+  "label": "observed risk ratio treated versus counterfactual (inverted to >= 1), reading total",
+  "script": "50_sensitivity.py",
+  "value": 1.228758
+ },
+ "s50_se_approx_ratio_cond": {
+  "date": "2026-10-26",
+  "label": "two-proportion SE approximation over the IF-SE, reading cond",
+  "script": "50_sensitivity.py",
+  "value": 1.004174
+ },
+ "s50_se_approx_ratio_total": {
+  "date": "2026-10-26",
+  "label": "two-proportion SE approximation over the IF-SE, reading total",
+  "script": "50_sensitivity.py",
+  "value": 1.038394
+ },
+ "s60_R": {
+  "date": "2026-10-26",
+  "label": "replicates per scenario",
+  "script": "60_simulation.R",
+  "value": 500
+ },
+ "s60_bias_aipw_M1": {
+  "date": "2026-10-26",
+  "label": "bias of AIPW in scenario M1",
+  "script": "60_simulation.R",
+  "value": -0.003845
+ },
+ "s60_bias_aipw_M2": {
+  "date": "2026-10-26",
+  "label": "bias of AIPW in scenario M2",
+  "script": "60_simulation.R",
+  "value": -0.00626
+ },
+ "s60_bias_aipw_S0": {
+  "date": "2026-10-26",
+  "label": "bias of AIPW in scenario S0",
+  "script": "60_simulation.R",
+  "value": -0.004246
+ },
+ "s60_bias_aipw_S1": {
+  "date": "2026-10-26",
+  "label": "bias of AIPW in scenario S1",
+  "script": "60_simulation.R",
+  "value": -0.00376
+ },
+ "s60_bias_aipw_S2": {
+  "date": "2026-10-26",
+  "label": "bias of AIPW in scenario S2",
+  "script": "60_simulation.R",
+  "value": -0.005521
+ },
+ "s60_bias_ipw_M1": {
+  "date": "2026-10-26",
+  "label": "bias of IPW in scenario M1",
+  "script": "60_simulation.R",
+  "value": -0.034707
+ },
+ "s60_bias_ipw_M2": {
+  "date": "2026-10-26",
+  "label": "bias of IPW in scenario M2",
+  "script": "60_simulation.R",
+  "value": -0.009561
+ },
+ "s60_bias_ipw_S0": {
+  "date": "2026-10-26",
+  "label": "bias of IPW in scenario S0",
+  "script": "60_simulation.R",
+  "value": -0.000808
+ },
+ "s60_bias_ipw_S1": {
+  "date": "2026-10-26",
+  "label": "bias of IPW in scenario S1",
+  "script": "60_simulation.R",
+  "value": -0.000536
+ },
+ "s60_bias_ipw_S2": {
+  "date": "2026-10-26",
+  "label": "bias of IPW in scenario S2",
+  "script": "60_simulation.R",
+  "value": -0.002147
+ },
+ "s60_bias_naive_M1": {
+  "date": "2026-10-26",
+  "label": "bias of naive in scenario M1",
+  "script": "60_simulation.R",
+  "value": -0.08961
+ },
+ "s60_bias_naive_M2": {
+  "date": "2026-10-26",
+  "label": "bias of naive in scenario M2",
+  "script": "60_simulation.R",
+  "value": -0.028981
+ },
+ "s60_bias_naive_S0": {
+  "date": "2026-10-26",
+  "label": "bias of naive in scenario S0",
+  "script": "60_simulation.R",
+  "value": -0.019068
+ },
+ "s60_bias_naive_S1": {
+  "date": "2026-10-26",
+  "label": "bias of naive in scenario S1",
+  "script": "60_simulation.R",
+  "value": -0.019169
+ },
+ "s60_bias_naive_S2": {
+  "date": "2026-10-26",
+  "label": "bias of naive in scenario S2",
+  "script": "60_simulation.R",
+  "value": -0.018936
+ },
+ "s60_bias_or_M1": {
+  "date": "2026-10-26",
+  "label": "bias of outcome regression in scenario M1",
+  "script": "60_simulation.R",
+  "value": -0.034066
+ },
+ "s60_bias_or_M2": {
+  "date": "2026-10-26",
+  "label": "bias of outcome regression in scenario M2",
+  "script": "60_simulation.R",
+  "value": -0.009476
+ },
+ "s60_bias_or_S0": {
+  "date": "2026-10-26",
+  "label": "bias of outcome regression in scenario S0",
+  "script": "60_simulation.R",
+  "value": -0.000794
+ },
+ "s60_bias_or_S1": {
+  "date": "2026-10-26",
+  "label": "bias of outcome regression in scenario S1",
+  "script": "60_simulation.R",
+  "value": -0.000608
+ },
+ "s60_bias_or_S2": {
+  "date": "2026-10-26",
+  "label": "bias of outcome regression in scenario S2",
+  "script": "60_simulation.R",
+  "value": -0.000898
+ },
+ "s60_cov_aipw_M1": {
+  "date": "2026-10-26",
+  "label": "coverage of the AIPW CI in scenario M1",
+  "script": "60_simulation.R",
+  "value": 0.962
+ },
+ "s60_cov_aipw_M2": {
+  "date": "2026-10-26",
+  "label": "coverage of the AIPW CI in scenario M2",
+  "script": "60_simulation.R",
+  "value": 0.936
+ },
+ "s60_cov_aipw_S0": {
+  "date": "2026-10-26",
+  "label": "coverage of the AIPW CI in scenario S0",
+  "script": "60_simulation.R",
+  "value": 0.952
+ },
+ "s60_cov_aipw_S1": {
+  "date": "2026-10-26",
+  "label": "coverage of the AIPW CI in scenario S1",
+  "script": "60_simulation.R",
+  "value": 0.938
+ },
+ "s60_cov_aipw_S2": {
+  "date": "2026-10-26",
+  "label": "coverage of the AIPW CI in scenario S2",
+  "script": "60_simulation.R",
+  "value": 0.95
+ },
+ "s60_cov_naive_M1": {
+  "date": "2026-10-26",
+  "label": "coverage of the naive CI in scenario M1",
+  "script": "60_simulation.R",
+  "value": 0.002
+ },
+ "s60_cov_naive_M2": {
+  "date": "2026-10-26",
+  "label": "coverage of the naive CI in scenario M2",
+  "script": "60_simulation.R",
+  "value": 0.644
+ },
+ "s60_cov_naive_S0": {
+  "date": "2026-10-26",
+  "label": "coverage of the naive CI in scenario S0",
+  "script": "60_simulation.R",
+  "value": 0.846
+ },
+ "s60_cov_naive_S1": {
+  "date": "2026-10-26",
+  "label": "coverage of the naive CI in scenario S1",
+  "script": "60_simulation.R",
+  "value": 0.818
+ },
+ "s60_cov_naive_S2": {
+  "date": "2026-10-26",
+  "label": "coverage of the naive CI in scenario S2",
+  "script": "60_simulation.R",
+  "value": 0.87
+ },
+ "s60_empse_aipw_M1": {
+  "date": "2026-10-26",
+  "label": "empirical SE of AIPW in scenario M1",
+  "script": "60_simulation.R",
+  "value": 0.022245
+ },
+ "s60_empse_aipw_M2": {
+  "date": "2026-10-26",
+  "label": "empirical SE of AIPW in scenario M2",
+  "script": "60_simulation.R",
+  "value": 0.023631
+ },
+ "s60_empse_aipw_S0": {
+  "date": "2026-10-26",
+  "label": "empirical SE of AIPW in scenario S0",
+  "script": "60_simulation.R",
+  "value": 0.023503
+ },
+ "s60_empse_aipw_S1": {
+  "date": "2026-10-26",
+  "label": "empirical SE of AIPW in scenario S1",
+  "script": "60_simulation.R",
+  "value": 0.022685
+ },
+ "s60_empse_aipw_S2": {
+  "date": "2026-10-26",
+  "label": "empirical SE of AIPW in scenario S2",
+  "script": "60_simulation.R",
+  "value": 0.02392
+ },
+ "s60_fail": {
+  "date": "2026-10-26",
+  "label": "failed replicates over all scenarios",
+  "script": "60_simulation.R",
+  "value": 0
+ },
+ "s60_m2_asym_ipw": {
+  "date": "2026-10-26",
+  "label": "asymptotic bias of main-effect logit IPW under M2",
+  "script": "60_simulation.R",
+  "value": -0.011159
+ },
+ "s60_m2_asym_or": {
+  "date": "2026-10-26",
+  "label": "asymptotic bias of main-effect logit OR under M2",
+  "script": "60_simulation.R",
+  "value": -0.01166
+ },
+ "s60_m2_max_e": {
+  "date": "2026-10-26",
+  "label": "largest true propensity under M2",
+  "script": "60_simulation.R",
+  "value": 0.95
+ },
+ "s60_m2_mode": {
+  "date": "2026-10-26",
+  "label": "M2 dampening reached the IPW target or stopped at the propensity cap",
+  "script": "60_simulation.R",
+  "value": "cap"
+ },
+ "s60_m2_r2": {
+  "date": "2026-10-26",
+  "label": "R squared of the M2 term on the main effects",
+  "script": "60_simulation.R",
+  "value": 0.264106
+ },
+ "s60_m2_s": {
+  "date": "2026-10-26",
+  "label": "scale factor s of the M2 term (+s in assignment, -s in outcome)",
+  "script": "60_simulation.R",
+  "value": 1.424671
+ },
+ "s60_m2_term": {
+  "date": "2026-10-26",
+  "label": "M2 term used",
+  "script": "60_simulation.R",
+  "value": "pre_funding_x_age"
+ },
+ "s60_mcse_bias_aipw_M1": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of AIPW in scenario M1",
+  "script": "60_simulation.R",
+  "value": 0.000995
+ },
+ "s60_mcse_bias_aipw_M2": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of AIPW in scenario M2",
+  "script": "60_simulation.R",
+  "value": 0.001057
+ },
+ "s60_mcse_bias_aipw_S0": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of AIPW in scenario S0",
+  "script": "60_simulation.R",
+  "value": 0.001051
+ },
+ "s60_mcse_bias_aipw_S1": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of AIPW in scenario S1",
+  "script": "60_simulation.R",
+  "value": 0.001015
+ },
+ "s60_mcse_bias_aipw_S2": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of AIPW in scenario S2",
+  "script": "60_simulation.R",
+  "value": 0.00107
+ },
+ "s60_mcse_bias_ipw_M1": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of IPW in scenario M1",
+  "script": "60_simulation.R",
+  "value": 0.001012
+ },
+ "s60_mcse_bias_ipw_M2": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of IPW in scenario M2",
+  "script": "60_simulation.R",
+  "value": 0.001016
+ },
+ "s60_mcse_bias_ipw_S0": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of IPW in scenario S0",
+  "script": "60_simulation.R",
+  "value": 0.001011
+ },
+ "s60_mcse_bias_ipw_S1": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of IPW in scenario S1",
+  "script": "60_simulation.R",
+  "value": 0.000969
+ },
+ "s60_mcse_bias_ipw_S2": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of IPW in scenario S2",
+  "script": "60_simulation.R",
+  "value": 0.001063
+ },
+ "s60_mcse_bias_naive_M1": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of naive in scenario M1",
+  "script": "60_simulation.R",
+  "value": 0.000766
+ },
+ "s60_mcse_bias_naive_M2": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of naive in scenario M2",
+  "script": "60_simulation.R",
+  "value": 0.000903
+ },
+ "s60_mcse_bias_naive_S0": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of naive in scenario S0",
+  "script": "60_simulation.R",
+  "value": 0.000898
+ },
+ "s60_mcse_bias_naive_S1": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of naive in scenario S1",
+  "script": "60_simulation.R",
+  "value": 0.000866
+ },
+ "s60_mcse_bias_naive_S2": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of naive in scenario S2",
+  "script": "60_simulation.R",
+  "value": 0.000919
+ },
+ "s60_mcse_bias_or_M1": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of outcome regression in scenario M1",
+  "script": "60_simulation.R",
+  "value": 0.000881
+ },
+ "s60_mcse_bias_or_M2": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of outcome regression in scenario M2",
+  "script": "60_simulation.R",
+  "value": 0.000977
+ },
+ "s60_mcse_bias_or_S0": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of outcome regression in scenario S0",
+  "script": "60_simulation.R",
+  "value": 0.000958
+ },
+ "s60_mcse_bias_or_S1": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of outcome regression in scenario S1",
+  "script": "60_simulation.R",
+  "value": 0.000913
+ },
+ "s60_mcse_bias_or_S2": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of outcome regression in scenario S2",
+  "script": "60_simulation.R",
+  "value": 0.001013
+ },
+ "s60_mcse_cov_aipw_M1": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the coverage of AIPW in scenario M1",
+  "script": "60_simulation.R",
+  "value": 0.008551
+ },
+ "s60_mcse_cov_aipw_M2": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the coverage of AIPW in scenario M2",
+  "script": "60_simulation.R",
+  "value": 0.010946
+ },
+ "s60_mcse_cov_aipw_S0": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the coverage of AIPW in scenario S0",
+  "script": "60_simulation.R",
+  "value": 0.00956
+ },
+ "s60_mcse_cov_aipw_S1": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the coverage of AIPW in scenario S1",
+  "script": "60_simulation.R",
+  "value": 0.010785
+ },
+ "s60_mcse_cov_aipw_S2": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the coverage of AIPW in scenario S2",
+  "script": "60_simulation.R",
+  "value": 0.009747
+ },
+ "s60_mcse_cov_naive_M1": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the coverage of naive in scenario M1",
+  "script": "60_simulation.R",
+  "value": 0.001998
+ },
+ "s60_mcse_cov_naive_M2": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the coverage of naive in scenario M2",
+  "script": "60_simulation.R",
+  "value": 0.021413
+ },
+ "s60_mcse_cov_naive_S0": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the coverage of naive in scenario S0",
+  "script": "60_simulation.R",
+  "value": 0.016142
+ },
+ "s60_mcse_cov_naive_S1": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the coverage of naive in scenario S1",
+  "script": "60_simulation.R",
+  "value": 0.017255
+ },
+ "s60_mcse_cov_naive_S2": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the coverage of naive in scenario S2",
+  "script": "60_simulation.R",
+  "value": 0.01504
+ },
+ "s60_true_att_realized_M1": {
+  "date": "2026-10-26",
+  "label": "realised true ATT in scenario M1 (mean over replicates)",
+  "script": "60_simulation.R",
+  "value": -0.057516
+ },
+ "s60_true_att_realized_M2": {
+  "date": "2026-10-26",
+  "label": "realised true ATT in scenario M2 (mean over replicates)",
+  "script": "60_simulation.R",
+  "value": -0.058852
+ },
+ "s60_true_att_realized_S0": {
+  "date": "2026-10-26",
+  "label": "realised true ATT in scenario S0 (mean over replicates)",
+  "script": "60_simulation.R",
+  "value": 1.2e-05
+ },
+ "s60_true_att_realized_S1": {
+  "date": "2026-10-26",
+  "label": "realised true ATT in scenario S1 (mean over replicates)",
+  "script": "60_simulation.R",
+  "value": -0.058962
+ },
+ "s60_true_att_realized_S2": {
+  "date": "2026-10-26",
+  "label": "realised true ATT in scenario S2 (mean over replicates)",
+  "script": "60_simulation.R",
+  "value": 0.1
+ },
+ "s60_u_bias_aipw_rstar": {
+  "date": "2026-10-26",
+  "label": "bias of AIPW in scenario rstar",
+  "script": "60_simulation.R",
+  "value": -0.054549
+ },
+ "s60_u_bias_aipw_shift10": {
+  "date": "2026-10-26",
+  "label": "bias of AIPW in scenario shift10",
+  "script": "60_simulation.R",
+  "value": -0.152697
+ },
+ "s60_u_bias_aipw_shift5": {
+  "date": "2026-10-26",
+  "label": "bias of AIPW in scenario shift5",
+  "script": "60_simulation.R",
+  "value": -0.102983
+ },
+ "s60_u_bias_ipw_rstar": {
+  "date": "2026-10-26",
+  "label": "bias of IPW in scenario rstar",
+  "script": "60_simulation.R",
+  "value": -0.051517
+ },
+ "s60_u_bias_ipw_shift10": {
+  "date": "2026-10-26",
+  "label": "bias of IPW in scenario shift10",
+  "script": "60_simulation.R",
+  "value": -0.151226
+ },
+ "s60_u_bias_ipw_shift5": {
+  "date": "2026-10-26",
+  "label": "bias of IPW in scenario shift5",
+  "script": "60_simulation.R",
+  "value": -0.100396
+ },
+ "s60_u_bias_naive_rstar": {
+  "date": "2026-10-26",
+  "label": "bias of naive in scenario rstar",
+  "script": "60_simulation.R",
+  "value": -0.062139
+ },
+ "s60_u_bias_naive_shift10": {
+  "date": "2026-10-26",
+  "label": "bias of naive in scenario shift10",
+  "script": "60_simulation.R",
+  "value": -0.152072
+ },
+ "s60_u_bias_naive_shift5": {
+  "date": "2026-10-26",
+  "label": "bias of naive in scenario shift5",
+  "script": "60_simulation.R",
+  "value": -0.105567
+ },
+ "s60_u_bias_or_rstar": {
+  "date": "2026-10-26",
+  "label": "bias of outcome regression in scenario rstar",
+  "script": "60_simulation.R",
+  "value": -0.051016
+ },
+ "s60_u_bias_or_shift10": {
+  "date": "2026-10-26",
+  "label": "bias of outcome regression in scenario shift10",
+  "script": "60_simulation.R",
+  "value": -0.151127
+ },
+ "s60_u_bias_or_shift5": {
+  "date": "2026-10-26",
+  "label": "bias of outcome regression in scenario shift5",
+  "script": "60_simulation.R",
+  "value": -0.100267
+ },
+ "s60_u_cov_aipw_rstar": {
+  "date": "2026-10-26",
+  "label": "coverage of the AIPW CI in scenario rstar",
+  "script": "60_simulation.R",
+  "value": 0.366
+ },
+ "s60_u_cov_aipw_shift10": {
+  "date": "2026-10-26",
+  "label": "coverage of the AIPW CI in scenario shift10",
+  "script": "60_simulation.R",
+  "value": 0
+ },
+ "s60_u_cov_aipw_shift5": {
+  "date": "2026-10-26",
+  "label": "coverage of the AIPW CI in scenario shift5",
+  "script": "60_simulation.R",
+  "value": 0
+ },
+ "s60_u_cov_naive_rstar": {
+  "date": "2026-10-26",
+  "label": "coverage of the naive CI in scenario rstar",
+  "script": "60_simulation.R",
+  "value": 0.112
+ },
+ "s60_u_cov_naive_shift10": {
+  "date": "2026-10-26",
+  "label": "coverage of the naive CI in scenario shift10",
+  "script": "60_simulation.R",
+  "value": 0
+ },
+ "s60_u_cov_naive_shift5": {
+  "date": "2026-10-26",
+  "label": "coverage of the naive CI in scenario shift5",
+  "script": "60_simulation.R",
+  "value": 0
+ },
+ "s60_u_e_equiv_rstar": {
+  "date": "2026-10-26",
+  "label": "E-value equivalent of the U strength in scenario rstar",
+  "script": "60_simulation.R",
+  "value": 2.238932
+ },
+ "s60_u_e_equiv_shift10": {
+  "date": "2026-10-26",
+  "label": "E-value equivalent of the U strength in scenario shift10",
+  "script": "60_simulation.R",
+  "value": 4.876215
+ },
+ "s60_u_e_equiv_shift5": {
+  "date": "2026-10-26",
+  "label": "E-value equivalent of the U strength in scenario shift5",
+  "script": "60_simulation.R",
+  "value": 3.348899
+ },
+ "s60_u_empse_aipw_rstar": {
+  "date": "2026-10-26",
+  "label": "empirical SE of AIPW in scenario rstar",
+  "script": "60_simulation.R",
+  "value": 0.02278
+ },
+ "s60_u_empse_aipw_shift10": {
+  "date": "2026-10-26",
+  "label": "empirical SE of AIPW in scenario shift10",
+  "script": "60_simulation.R",
+  "value": 0.021723
+ },
+ "s60_u_empse_aipw_shift5": {
+  "date": "2026-10-26",
+  "label": "empirical SE of AIPW in scenario shift5",
+  "script": "60_simulation.R",
+  "value": 0.020999
+ },
+ "s60_u_mcse_bias_aipw_rstar": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of AIPW in scenario rstar",
+  "script": "60_simulation.R",
+  "value": 0.001019
+ },
+ "s60_u_mcse_bias_aipw_shift10": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of AIPW in scenario shift10",
+  "script": "60_simulation.R",
+  "value": 0.000972
+ },
+ "s60_u_mcse_bias_aipw_shift5": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of AIPW in scenario shift5",
+  "script": "60_simulation.R",
+  "value": 0.000939
+ },
+ "s60_u_mcse_bias_ipw_rstar": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of IPW in scenario rstar",
+  "script": "60_simulation.R",
+  "value": 0.001001
+ },
+ "s60_u_mcse_bias_ipw_shift10": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of IPW in scenario shift10",
+  "script": "60_simulation.R",
+  "value": 0.000953
+ },
+ "s60_u_mcse_bias_ipw_shift5": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of IPW in scenario shift5",
+  "script": "60_simulation.R",
+  "value": 0.000922
+ },
+ "s60_u_mcse_bias_naive_rstar": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of naive in scenario rstar",
+  "script": "60_simulation.R",
+  "value": 0.000886
+ },
+ "s60_u_mcse_bias_naive_shift10": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of naive in scenario shift10",
+  "script": "60_simulation.R",
+  "value": 0.00088
+ },
+ "s60_u_mcse_bias_naive_shift5": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of naive in scenario shift5",
+  "script": "60_simulation.R",
+  "value": 0.000865
+ },
+ "s60_u_mcse_bias_or_rstar": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of outcome regression in scenario rstar",
+  "script": "60_simulation.R",
+  "value": 0.000953
+ },
+ "s60_u_mcse_bias_or_shift10": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of outcome regression in scenario shift10",
+  "script": "60_simulation.R",
+  "value": 0.00092
+ },
+ "s60_u_mcse_bias_or_shift5": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the bias of outcome regression in scenario shift5",
+  "script": "60_simulation.R",
+  "value": 0.000906
+ },
+ "s60_u_mcse_cov_aipw_rstar": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the coverage of AIPW in scenario rstar",
+  "script": "60_simulation.R",
+  "value": 0.021543
+ },
+ "s60_u_mcse_cov_aipw_shift10": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the coverage of AIPW in scenario shift10",
+  "script": "60_simulation.R",
+  "value": 0
+ },
+ "s60_u_mcse_cov_aipw_shift5": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the coverage of AIPW in scenario shift5",
+  "script": "60_simulation.R",
+  "value": 0
+ },
+ "s60_u_mcse_cov_naive_rstar": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the coverage of naive in scenario rstar",
+  "script": "60_simulation.R",
+  "value": 0.014104
+ },
+ "s60_u_mcse_cov_naive_shift10": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the coverage of naive in scenario shift10",
+  "script": "60_simulation.R",
+  "value": 0
+ },
+ "s60_u_mcse_cov_naive_shift5": {
+  "date": "2026-10-26",
+  "label": "Monte-Carlo SE of the coverage of naive in scenario shift5",
+  "script": "60_simulation.R",
+  "value": 0
+ },
+ "s60_u_p_u": {
+  "date": "2026-10-26",
+  "label": "prevalence of the unobserved confounder",
+  "script": "60_simulation.R",
+  "value": 0.3
+ },
+ "s60_u_r_rstar": {
+  "date": "2026-10-26",
+  "label": "U strength in scenario rstar",
+  "script": "60_simulation.R",
+  "value": 2.238932
+ },
+ "s60_u_r_shift10": {
+  "date": "2026-10-26",
+  "label": "U strength in scenario shift10",
+  "script": "60_simulation.R",
+  "value": 4.876215
+ },
+ "s60_u_r_shift5": {
+  "date": "2026-10-26",
+  "label": "U strength in scenario shift5",
+  "script": "60_simulation.R",
+  "value": 3.348899
+ },
+ "s60_u_rstar": {
+  "date": "2026-10-26",
+  "label": "U strength (RR with treatment and outcome) that makes a true zero appear as the headline",
+  "script": "60_simulation.R",
+  "value": 2.238932
+ },
+ "s60_u_true_att_realized_rstar": {
+  "date": "2026-10-26",
+  "label": "realised true ATT in scenario rstar (mean over replicates)",
+  "script": "60_simulation.R",
+  "value": 1.2e-05
+ },
+ "s60_u_true_att_realized_shift10": {
+  "date": "2026-10-26",
+  "label": "realised true ATT in scenario shift10 (mean over replicates)",
+  "script": "60_simulation.R",
+  "value": 0.1
+ },
+ "s60_u_true_att_realized_shift5": {
+  "date": "2026-10-26",
+  "label": "realised true ATT in scenario shift5 (mean over replicates)",
+  "script": "60_simulation.R",
+  "value": 0.05
+ },
+ "s60_u_true_att_rstar": {
+  "date": "2026-10-26",
+  "label": "true ATT in scenario rstar",
+  "script": "60_simulation.R",
+  "value": 0
+ },
+ "s60_u_true_att_shift10": {
+  "date": "2026-10-26",
+  "label": "true ATT in scenario shift10",
+  "script": "60_simulation.R",
+  "value": 0.1
+ },
+ "s60_u_true_att_shift5": {
+  "date": "2026-10-26",
+  "label": "true ATT in scenario shift5",
+  "script": "60_simulation.R",
+  "value": 0.05
+ },
+ "s60_u_xbias_rstar": {
+  "date": "2026-10-26",
+  "label": "X-adjusted population bias in scenario rstar",
+  "script": "60_simulation.R",
+  "value": -0.050206
+ },
+ "s60_u_xbias_shift10": {
+  "date": "2026-10-26",
+  "label": "X-adjusted population bias in scenario shift10",
+  "script": "60_simulation.R",
+  "value": -0.150206
+ },
+ "s60_u_xbias_shift5": {
+  "date": "2026-10-26",
+  "label": "X-adjusted population bias in scenario shift5",
+  "script": "60_simulation.R",
+  "value": -0.100206
+ }
+}

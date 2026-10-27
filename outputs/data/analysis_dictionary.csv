@@ -1,0 +1,37 @@
+column,type,definition,source
+firm_id,text,firm permalink,companies
+country,text,ISO3 of the headquarters,rounds
+cohort,int,year of the first round,rounds
+first_round_id,text,permalink of the first round (same-day event: the first in sort order),rounds
+first_round_date,date,date of the first round,rounds
+first_round_type,text,"seed, angel or venture",rounds
+first_round_code,text,series code as in the export (the A-or-empty restriction applies to venture rounds only),rounds
+first_round_amount_usd,num,"amount in USD, summed over the filled parts of a same-day event, empty if no part has one",rounds
+amount_missing,0/1,amount missing for the round or for at least one part of a same-day event,rounds
+same_day_merged,int,scope rounds merged on the first-round day (1 = none),rounds
+rounds_skipped,int,earlier scope rounds that did not take place (only ignored links),"rounds, investments, register"
+n_kein_investor_first,int,links of the first-round event dropped as class kein_investor,"investments, register"
+n_links_first,int,links of the first-round event after dropping kein_investor,"investments, register"
+n_public_first,int,links of class public in the first-round event,"investments, register"
+n_variant_first,int,links of class public_variant in the first-round event,"investments, register"
+n_private_first,int,links of class private in the first-round event,"investments, register"
+has_links,0/1,n_links_first > 0 (primary sample),"investments, register"
+treated,0/1,at least one public link (headline definition),"investments, register"
+treated_broad,0/1,at least one public or public_variant link,"investments, register"
+treated_strict,0/1,at least one public link with a public manager,"investments, register"
+treated_solo,0/1,treated without a private link in the first round,"investments, register"
+treated_synd,0/1,treated with at least one private link,"investments, register"
+first_round_only_unresolved,0/1,all links of the first round are unresolved organisations (investor_type unbekannt),"investments, register"
+sector,text,"first category, 25 most frequent kept (ties by first occurrence, an empty category is its own level), rest other",companies
+age_at_round,num,"years from founding to the first round, empty if missing or outside -0.5 to 50.0",companies
+age_missing,0/1,age missing,companies
+pre_funding,0/1,"any round of any type before the first round, including earlier scope rounds with only kein_investor links",rounds
+o1_36,0/1,equity follow-on round with at least one private link within 36 months (main outcome),"rounds, investments, register"
+o1_24,0/1,"as o1_36, within 24 months","rounds, investments, register"
+o1_48,0/1,"as o1_36, within 48 months, empty for cohorts after 2011","rounds, investments, register"
+o1b_36,0/1,"any equity follow-on round within 36 months, also without links; a round whose links are all kein_investor does not count","rounds, investments, register"
+o1_undisc_36,0/1,o1_36 with undisclosed rounds counted as equity,"rounds, investments, register"
+o2_36,0/1,"equity follow-on round with links, none of class public or public_variant, within 36 months","rounds, investments, register"
+o1_36_only_unresolved,0/1,o1_36 = 1 only through unresolved private links,"investments, register"
+exit_acq_36,0/1,acquired within 36 months after the first round,acquisitions
+status,text,company status in the export,companies

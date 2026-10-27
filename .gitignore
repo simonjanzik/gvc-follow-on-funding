@@ -1,0 +1,8 @@
+# raw data is downloaded by get_data.sh (CC BY-NC, not redistributed here)
+raw/
+# local run artefacts
+*.log
+*.tmp
+.DS_Store
+__pycache__/
+.Rhistory

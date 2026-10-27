@@ -1,0 +1,11 @@
+reading,true_effect_pp,power
+total,5,0.6355
+total,8,0.9582
+total,10,0.996
+total,15,1.0
+total,20,1.0
+cond,5,0.5645
+cond,8,0.9245
+cond,10,0.9888
+cond,15,1.0
+cond,20,1.0

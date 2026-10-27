@@ -1,0 +1,9 @@
+reading,scenario,evalue
+total,point estimate versus zero,1.7589
+total,CI bound versus zero,1.2259
+total,true ATT +5 pp,2.5613
+total,true ATT +10 pp,3.9419
+cond,point estimate versus zero,2.0122
+cond,CI bound versus zero,1.509
+cond,true ATT +5 pp,2.8616
+cond,true ATT +10 pp,4.3538
